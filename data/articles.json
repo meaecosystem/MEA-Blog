@@ -1,0 +1,62 @@
+[
+  {
+    "id": "siesta-riset-pertama-resmi-publish",
+    "title": "Siesta: Riset Pertama MEA Team AI Resmi Publish di Zenodo",
+    "desc": "Paper riset pertama MEA Team AI resmi terbit sebagai preprint di Zenodo. Siesta mengeksplorasi identity coherence pada model bahasa orchestrator berbahasa Indonesia, dibangun dari nol dengan resource terbatas.",
+    "category": "riset",
+    "url": "/id/siesta-riset-pertama-resmi-publish.html",
+    "date": "2026-09-16",
+    "icon": "ai",
+    "keywords": ["Siesta", "MEA Team AI", "identity coherence", "model bahasa orchestrator", "riset AI Indonesia", "preprint Zenodo"]
+  },
+  {
+    "id": "cara-ubah-pdf-jadi-gambar",
+    "title": "Cara Ubah PDF Jadi Gambar (JPG/PNG) Langsung di Browser",
+    "desc": "Panduan lengkap mengubah halaman PDF menjadi gambar JPG atau PNG tanpa upload ke server, tanpa install aplikasi, dan tanpa login.",
+    "category": "convert",
+    "url": "/id/cara-ubah-pdf-jadi-gambar.html",
+    "date": "2026-08-16",
+    "icon": "pdf",
+    "keywords": ["pdf ke gambar", "pdf ke jpg", "pdf ke png", "convert pdf", "cara ubah pdf jadi gambar", "extract halaman pdf"]
+  },
+  {
+    "id": "cara-gabungkan-pdf",
+    "title": "Cara Menggabungkan Beberapa File PDF Jadi Satu",
+    "desc": "Panduan menggabungkan banyak file PDF sekaligus, atur urutannya sesuka hati, tanpa upload ke server dan tanpa kehilangan kualitas.",
+    "category": "convert",
+    "url": "/id/cara-gabungkan-pdf.html",
+    "date": "2026-08-17",
+    "icon": "pdf",
+    "keywords": ["gabungkan pdf", "merge pdf", "satukan pdf", "cara menggabungkan pdf", "combine pdf"]
+  },
+  {
+    "id": "cara-kompres-gambar",
+    "title": "Cara Kompres Gambar Tanpa Kehilangan Kualitas, Langsung di Browser",
+    "desc": "Panduan mengecilkan ukuran file gambar (JPG, PNG, WebP) dan resize banyak gambar sekaligus, tanpa upload ke server, gratis dan tanpa login.",
+    "category": "image",
+    "url": "/id/cara-kompres-gambar.html",
+    "date": "2026-08-17",
+    "icon": "image",
+    "keywords": ["kompres gambar", "compress image", "perkecil ukuran gambar", "resize gambar", "kompres foto", "cara mengecilkan ukuran foto"]
+  },
+  {
+    "id": "cara-memecah-pdf",
+    "title": "Cara Memecah Satu PDF Jadi Beberapa File Terpisah",
+    "desc": "Panduan memecah PDF berdasarkan halaman, klik langsung di antara thumbnail atau tulis rentang halaman manual, tanpa upload ke server.",
+    "category": "convert",
+    "url": "/id/cara-memecah-pdf.html",
+    "date": "2026-08-17",
+    "icon": "pdf",
+    "keywords": ["split pdf", "pecah pdf", "memecah pdf", "cara memisahkan halaman pdf", "potong pdf"]
+  },
+  {
+    "id": "kenapa-tools-online-pindah-ke-client-side",
+    "title": "Kenapa Makin Banyak Tools Online Pindah ke Client-Side (dan Kenapa Itu Penting Buat Privasi Kamu)",
+    "desc": "Penjelasan sederhana soal apa itu pemrosesan client-side, kenapa tren ini makin banyak dipakai, dan bagaimana cara mengenali tools yang benar-benar tidak mengirim file kamu ke server.",
+    "category": "privasi",
+    "url": "/id/kenapa-tools-online-pindah-ke-client-side.html",
+    "date": "2026-08-17",
+    "icon": "lock",
+    "keywords": ["client-side processing", "privasi online", "tools tanpa upload server", "kenapa client side", "keamanan data pribadi", "pemrosesan di browser"]
+  }
+]
