@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>Cara Merapikan dan Validasi JSON yang Berantakan | MEA Blog</title>
+<meta name="description" content="Panduan merapikan (format) JSON yang berantakan, meminifikasinya jadi satu baris, dan menemukan letak error syntax, langsung di browser." />
+<link rel="canonical" href="https://blog.meaecosystem.com/id/cara-format-json.html" />
+
+<link rel="icon" type="image/svg+xml" href="https://meaecosystem.com/shared/logo/favicon.svg" />
+
+<link rel="stylesheet" href="https://meaecosystem.com/shared/token/token-color.css" />
+<link rel="stylesheet" href="https://meaecosystem.com/shared/logo/logo-glow.css" />
+<link rel="stylesheet" href="/shared/blog.css" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Cara Merapikan dan Validasi JSON yang Berantakan",
+  "description": "Panduan format, minify, dan validasi JSON langsung di browser.",
+  "step": [
+    { "@type": "HowToStep", "name": "Buka JSON Formatter", "text": "Buka tools.meaecosystem.com/json-formatter/ di browser." },
+    { "@type": "HowToStep", "name": "Tempel JSON", "text": "Salin dan tempel JSON yang mau dirapikan ke kolom input." },
+    { "@type": "HowToStep", "name": "Rapikan atau ciutkan", "text": "Klik Rapikan untuk format yang mudah dibaca, atau Ciutkan untuk jadi satu baris." },
+    { "@type": "HowToStep", "name": "Salin hasil", "text": "Salin hasilnya dengan sekali klik." }
+  ],
+  "isPartOf": { "@type": "WebSite", "name": "MEA Ecosystem", "url": "https://meaecosystem.com" },
+  "publisher": { "@type": "Organization", "name": "MEA Ecosystem", "url": "https://meaecosystem.com" }
+}
+</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="brand-lockup">
+      <img src="https://meaecosystem.com/shared/logo/logo-dark.svg" alt="" class="logo-glow" />
+      <span class="brand">MEA Blog</span>
+    </a>
+  </div>
+</header>
+
+<main class="container-article">
+  <nav class="mea-breadcrumb">
+    <a href="/">MEA Blog</a>
+    <span>/</span>
+    <a href="/#text">Teks</a>
+    <span>/</span>
+    <span aria-current="page">Cara Format JSON</span>
+  </nav>
+
+  <header class="mea-article-header">
+    <span class="eyebrow">Panduan · Teks & Kode</span>
+    <h1>Cara Merapikan dan Validasi JSON yang Berantakan</h1>
+    <p class="mea-article-lead">JSON hasil response API atau log sering datang dalam satu baris panjang yang nyaris mustahil dibaca mata. Begini cara merapikannya jadi terstruktur, sekaligus mengecek kalau ada typo yang bikin syntax-nya error.</p>
+    <div class="mea-article-meta">
+      <span>1 Oktober 2026</span>
+      <span>·</span>
+      <span>3 menit baca</span>
+    </div>
+  </header>
+
+  <article class="mea-article-body">
+    <p>JSON yang valid secara teknis tetap bisa berantakan secara visual — apalagi kalau hasil minify dari API atau disalin dari console. JSON Formatter membantu merapikan strukturnya dengan indentasi yang benar, sekaligus memberi tahu di baris mana letak error kalau syntax-nya rusak.</p>
+
+    <div class="mea-tool-cta glass">
+      <span class="eyebrow">Coba Sekarang</span>
+      <h3>JSON Formatter & Validator — MEA Tools</h3>
+      <p>Rapikan, ciutkan, dan validasi JSON langsung di browser, tanpa upload ke server.</p>
+      <a href="https://tools.meaecosystem.com/json-formatter/" class="mea-tool-cta-btn">Buka JSON Formatter →</a>
+    </div>
+
+    <h2>Langkah-langkah merapikan JSON</h2>
+    <ol>
+      <li>Buka <a href="https://tools.meaecosystem.com/json-formatter/">tools.meaecosystem.com/json-formatter</a>.</li>
+      <li>Salin JSON yang mau dirapikan, tempel ke kolom input.</li>
+      <li>Klik "Rapikan (Format)" untuk mengubahnya jadi terstruktur dengan indentasi yang mudah dibaca.</li>
+      <li>Kalau justru butuh versi paling ringkas (misalnya untuk ditempel ke konfigurasi), klik "Ciutkan (Minify)" untuk menjadikannya satu baris.</li>
+      <li>Salin hasilnya dengan tombol salin.</li>
+    </ol>
+
+    <h2>Kalau JSON-nya error, di mana letak masalahnya?</h2>
+    <p>Penyebab paling umum JSON gagal diparse adalah koma tertinggal di akhir array/object, tanda kutip yang tidak konsisten (harus pakai kutip ganda, bukan kutip tunggal), atau kurung yang tidak seimbang. Kalau input yang kamu tempel tidak valid, tool ini akan memberi tahu posisi errornya supaya nggak perlu menyisir manual satu per satu.</p>
+
+    <h2>Format vs minify, kapan pakai yang mana?</h2>
+    <p>Format (rapikan) cocok dipakai saat kamu sedang membaca atau debug data — struktur bersarangnya jadi jelas terlihat. Minify (ciutkan) lebih cocok kalau JSON itu akan ditempel ke tempat yang mementingkan ukuran file kecil, misalnya file konfigurasi produksi atau payload API.</p>
+
+    <h2>Pertanyaan yang sering ditanyakan</h2>
+    <details class="mea-faq-item">
+      <summary>Apakah JSON yang saya tempel dikirim ke server?</summary>
+      <p>Tidak. Semua proses parsing, format, dan validasi berjalan langsung di browser kamu.</p>
+    </details>
+    <details class="mea-faq-item">
+      <summary>Apakah ada batas ukuran JSON yang bisa diproses?</summary>
+      <p>Tidak ada batas dari sisi layanan. Batasnya hanya kemampuan browser dan perangkatmu untuk JSON yang sangat besar.</p>
+    </details>
+    <details class="mea-faq-item">
+      <summary>Bedanya JSON valid dan JSON yang cuma "terlihat benar" apa?</summary>
+      <p>JSON valid mengikuti aturan syntax yang ketat — tanda kutip ganda wajib, tidak boleh ada koma tertinggal. Tool ini memvalidasi sesuai standar itu, jadi kalau ada bagian yang "terlihat benar" tapi sebenarnya salah, akan tetap terdeteksi.</p>
+    </details>
+
+    <div class="mea-related">
+      <h2>Baca juga</h2>
+      <p><a href="/id/cara-hitung-kata.html">Cara Menghitung Jumlah Kata, Karakter, dan Waktu Baca Teks</a></p>
+      <p><a href="/id/cara-cek-hash-file.html">Cara Cek Hash File (MD5, SHA-256) untuk Verifikasi Keaslian</a></p>
+      <p><a href="/id/kenapa-tools-online-pindah-ke-client-side.html">Kenapa Makin Banyak Tools Online Pindah ke Client-Side?</a></p>
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-row footer-row-top">
+      <div class="brand-lockup footer-brand">
+        <svg class="footer-logo-animated" viewBox="0 0 210 180" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect id="footer-box-left" x="24.5" y="30" width="100" height="100" rx="20" fill="none" stroke="var(--mea-accent)" stroke-width="8"/>
+          <path id="footer-box-right" d="M 123.86 45.00 L 173.11 45.17 L 179.35 47.06 L 182.68 49.13 L 185.54 51.81 L 188.98 57.35 L 190.46 63.69 L 190.50 120.00 L 189.82 125.18 L 187.13 131.11 L 183.69 135.04 L 178.15 138.48 L 171.81 139.96 L 112.89 139.83 L 107.85 138.48 L 104.39 136.63 L 101.36 134.14 L 98.18 130.00" fill="none" stroke="var(--mea-accent)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="brand" style="font-size:16px;">MEA Blog</span>
+      </div>
+      <div class="footer-copyright">© 2026 MEA Ecosystem. Seluruh hak cipta dilindungi.</div>
+    </div>
+    <div class="footer-row footer-row-bottom">
+      <nav class="footer-links">
+        <a href="https://legal.meaecosystem.com/meaecosystem/privacy">Privacy</a>
+        <a href="https://legal.meaecosystem.com/meaecosystem/terms">Terms</a>
+        <a href="https://legal.meaecosystem.com/meaecosystem/disclaimer">Disclaimer</a>
+      </nav>
+      <div class="footer-meta">
+        <a href="https://meaecosystem.com" class="brand">MEA Ecosystem</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

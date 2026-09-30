@@ -14,6 +14,7 @@ const BLOG_CATEGORIES = [
   { id: "text", label: "Teks" },
   { id: "privasi", label: "Privasi & Keamanan" },
   { id: "riset", label: "Riset & AI" },
+  { id: "utilitas", label: "Utilitas" },
 ];
 
 const BLOG_SORTS = [
@@ -31,6 +32,11 @@ const MEA_ICONS = {
   text: '<path d="M4 6h16M4 12h16M4 18h10"/>',
   lock: '<rect x="4" y="11" width="16" height="9" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/>',
   ai: '<circle cx="12" cy="12" r="3"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/>',
+  qr: '<rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3v3h-3zM20 14v3M14 20h3M20 20v.01"/>',
+  key: '<circle cx="8" cy="15" r="4"/><path d="m10.5 12.5 8-8M16 5l2 2M13 8l2 2"/>',
+  code: '<path d="m8 9-4 3 4 3M16 9l4 3-4 3M13 6l-2 12"/>',
+  hash: '<path d="M5 9h14M5 15h14M10 3 7 21M17 3l-3 18"/>',
+  clock: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/>',
   default: '<circle cx="12" cy="12" r="9"/>',
 };
 

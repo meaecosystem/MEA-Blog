@@ -1,5 +1,85 @@
 [
   {
+    "id": "cara-buat-qr-code",
+    "title": "Cara Membuat QR Code Sendiri dengan Logo, Gratis Tanpa Watermark",
+    "desc": "Panduan bikin QR code sendiri lengkap dengan logo dan warna custom, langsung di browser, tanpa upload ke server dan tanpa watermark mengganggu.",
+    "category": "utilitas",
+    "url": "/id/cara-buat-qr-code.html",
+    "date": "2026-10-01",
+    "icon": "qr",
+    "keywords": ["cara buat qr code", "qr code generator", "qr code dengan logo", "buat qr code gratis", "qr code online"]
+  },
+  {
+    "id": "cara-buat-password-kuat",
+    "title": "Cara Membuat Password Kuat yang Sulit Ditebak",
+    "desc": "Panduan bikin password acak yang kuat dan susah ditebak, diproses langsung di browser tanpa pernah dikirim ke server mana pun.",
+    "category": "utilitas",
+    "url": "/id/cara-buat-password-kuat.html",
+    "date": "2026-10-01",
+    "icon": "key",
+    "keywords": ["password generator", "cara buat password kuat", "generate password acak", "password aman", "buat password online"]
+  },
+  {
+    "id": "cara-format-json",
+    "title": "Cara Merapikan dan Validasi JSON yang Berantakan",
+    "desc": "Panduan merapikan (format) JSON yang berantakan, meminifikasinya jadi satu baris, dan menemukan letak error syntax, langsung di browser.",
+    "category": "text",
+    "url": "/id/cara-format-json.html",
+    "date": "2026-10-01",
+    "icon": "code",
+    "keywords": ["json formatter", "cara format json", "json validator online", "rapikan json", "json minify"]
+  },
+  {
+    "id": "cara-cek-hash-file",
+    "title": "Cara Cek Hash File (MD5, SHA-256) untuk Verifikasi Keaslian",
+    "desc": "Panduan menghitung hash MD5, SHA-1, SHA-256 dari file atau teks, dan membandingkannya untuk memastikan file tidak rusak atau diubah, langsung di browser.",
+    "category": "utilitas",
+    "url": "/id/cara-cek-hash-file.html",
+    "date": "2026-10-01",
+    "icon": "hash",
+    "keywords": ["cek hash file", "md5 checker", "sha256 online", "verifikasi file", "file hash checker"]
+  },
+  {
+    "id": "cara-tambah-watermark-pdf",
+    "title": "Cara Menambahkan Watermark Teks atau Logo ke PDF",
+    "desc": "Panduan menambahkan watermark teks atau logo ke file PDF, atur posisi, rotasi, dan transparansi, langsung di browser tanpa upload ke server.",
+    "category": "convert",
+    "url": "/id/cara-tambah-watermark-pdf.html",
+    "date": "2026-10-01",
+    "icon": "pdf",
+    "keywords": ["watermark pdf", "cara tambah watermark pdf", "beri watermark pdf online", "watermark logo pdf"]
+  },
+  {
+    "id": "cara-konversi-unix-timestamp",
+    "title": "Cara Mengubah Unix Timestamp ke Tanggal (dan Sebaliknya)",
+    "desc": "Panduan mengubah Unix timestamp jadi tanggal yang mudah dibaca, atau sebaliknya, mendukung format detik dan milidetik, langsung di browser.",
+    "category": "utilitas",
+    "url": "/id/cara-konversi-unix-timestamp.html",
+    "date": "2026-10-01",
+    "icon": "clock",
+    "keywords": ["unix timestamp converter", "timestamp ke tanggal", "convert timestamp online", "epoch converter"]
+  },
+  {
+    "id": "cara-hitung-kata",
+    "title": "Cara Menghitung Jumlah Kata, Karakter, dan Waktu Baca Teks",
+    "desc": "Panduan menghitung jumlah kata, karakter, kalimat, dan estimasi waktu baca dari teks secara real-time, langsung di browser tanpa upload ke server.",
+    "category": "text",
+    "url": "/id/cara-hitung-kata.html",
+    "date": "2026-10-01",
+    "icon": "text",
+    "keywords": ["word counter", "cara hitung kata", "hitung karakter online", "penghitung kata"]
+  },
+  {
+    "id": "cara-ambil-warna-dari-gambar",
+    "title": "Cara Mengambil Kode Warna dan Palet dari Gambar",
+    "desc": "Panduan mengambil kode warna Hex, RGB, HSL dari gambar dengan klik langsung, atau mengekstrak palet warna dominan secara otomatis, langsung di browser.",
+    "category": "image",
+    "url": "/id/cara-ambil-warna-dari-gambar.html",
+    "date": "2026-10-01",
+    "icon": "image",
+    "keywords": ["color picker gambar", "ambil warna dari gambar", "palet warna dominan", "cek kode warna hex"]
+  },
+  {
     "id": "siesta-riset-pertama-resmi-publish",
     "title": "Siesta: Riset Pertama MEA Team AI Resmi Publish di Zenodo",
     "desc": "Paper riset pertama MEA Team AI resmi terbit sebagai preprint di Zenodo. Siesta mengeksplorasi identity coherence pada model bahasa orchestrator berbahasa Indonesia, dibangun dari nol dengan resource terbatas.",

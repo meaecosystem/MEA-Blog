@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>Cara Cek Hash File (MD5, SHA-256) untuk Verifikasi Keaslian | MEA Blog</title>
+<meta name="description" content="Panduan menghitung hash MD5, SHA-1, SHA-256 dari file atau teks, dan membandingkannya untuk memastikan file tidak rusak atau diubah, langsung di browser." />
+<link rel="canonical" href="https://blog.meaecosystem.com/id/cara-cek-hash-file.html" />
+
+<link rel="icon" type="image/svg+xml" href="https://meaecosystem.com/shared/logo/favicon.svg" />
+
+<link rel="stylesheet" href="https://meaecosystem.com/shared/token/token-color.css" />
+<link rel="stylesheet" href="https://meaecosystem.com/shared/logo/logo-glow.css" />
+<link rel="stylesheet" href="/shared/blog.css" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Cara Cek Hash File untuk Verifikasi Keaslian",
+  "description": "Panduan menghitung dan membandingkan hash MD5, SHA-1, SHA-256 dari file atau teks, langsung di browser.",
+  "step": [
+    { "@type": "HowToStep", "name": "Buka File Hash Checker", "text": "Buka tools.meaecosystem.com/file-hash-checker/ di browser." },
+    { "@type": "HowToStep", "name": "Pilih mode File atau Teks", "text": "Pilih mau menghitung hash dari file atau dari teks yang diketik." },
+    { "@type": "HowToStep", "name": "Unggah file atau ketik teks", "text": "Pilih file dari perangkat, atau ketik teks yang mau dihitung hash-nya." },
+    { "@type": "HowToStep", "name": "Pilih algoritma", "text": "Centang algoritma hash yang dibutuhkan: MD5, SHA-1, SHA-256, SHA-384, atau SHA-512." },
+    { "@type": "HowToStep", "name": "Bandingkan hash", "text": "Tempel hash yang kamu punya untuk dibandingkan otomatis dengan hasil perhitungan." }
+  ],
+  "isPartOf": { "@type": "WebSite", "name": "MEA Ecosystem", "url": "https://meaecosystem.com" },
+  "publisher": { "@type": "Organization", "name": "MEA Ecosystem", "url": "https://meaecosystem.com" }
+}
+</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="brand-lockup">
+      <img src="https://meaecosystem.com/shared/logo/logo-dark.svg" alt="" class="logo-glow" />
+      <span class="brand">MEA Blog</span>
+    </a>
+  </div>
+</header>
+
+<main class="container-article">
+  <nav class="mea-breadcrumb">
+    <a href="/">MEA Blog</a>
+    <span>/</span>
+    <a href="/#utilitas">Utilitas</a>
+    <span>/</span>
+    <span aria-current="page">Cara Cek Hash File</span>
+  </nav>
+
+  <header class="mea-article-header">
+    <span class="eyebrow">Panduan · Keamanan</span>
+    <h1>Cara Cek Hash File (MD5, SHA-256) untuk Verifikasi Keaslian</h1>
+    <p class="mea-article-lead">Habis download file besar dan mau mastiin isinya utuh, nggak rusak pas transfer atau nggak diutak-atik pihak lain? Hash file adalah cara paling akurat buat mengeceknya. Begini caranya.</p>
+    <div class="mea-article-meta">
+      <span>1 Oktober 2026</span>
+      <span>·</span>
+      <span>3 menit baca</span>
+    </div>
+  </header>
+
+  <article class="mea-article-body">
+    <p>Hash adalah semacam "sidik jari" digital dari sebuah file atau teks — kalau isinya berubah sedikit saja, hasil hash-nya akan berubah total. Karena itu hash sering dipakai untuk memverifikasi bahwa file yang kamu download benar-benar sama dengan file aslinya, tanpa ada bagian yang korup atau diubah di tengah jalan.</p>
+
+    <div class="mea-tool-cta glass">
+      <span class="eyebrow">Coba Sekarang</span>
+      <h3>File Hash Checker — MEA Tools</h3>
+      <p>Hitung hash MD5, SHA-1, hingga SHA-512 dari file atau teks, dan bandingkan otomatis, langsung di browser.</p>
+      <a href="https://tools.meaecosystem.com/file-hash-checker/" class="mea-tool-cta-btn">Buka File Hash Checker →</a>
+    </div>
+
+    <h2>Langkah-langkah mengecek hash</h2>
+    <ol>
+      <li>Buka <a href="https://tools.meaecosystem.com/file-hash-checker/">tools.meaecosystem.com/file-hash-checker</a>.</li>
+      <li>Pilih mode "File" kalau mau mengecek file, atau "Teks" kalau mau menghitung hash dari teks yang diketik langsung.</li>
+      <li>Unggah file dari perangkat kamu, atau ketik/tempel teksnya.</li>
+      <li>Centang algoritma yang dibutuhkan — SHA-256 biasanya sudah cukup untuk kebanyakan kebutuhan verifikasi, tapi kamu juga bisa hitung beberapa sekaligus.</li>
+      <li>Kalau kamu sudah punya hash referensi (misalnya dari halaman download resmi), tempel di kolom pembanding — tool ini akan otomatis memberi tahu cocok atau tidak.</li>
+    </ol>
+
+    <h2>Kenapa hash-nya harus persis sama?</h2>
+    <p>Sifat dasar fungsi hash adalah perubahan sekecil apa pun pada file — walau cuma satu bit — akan menghasilkan hash yang jauh berbeda, bukan cuma "sedikit beda". Jadi kalau hash hasil perhitungan cocok persis dengan hash yang diberikan sumber resminya, itu artinya file kamu identik, byte demi byte, dengan file aslinya.</p>
+
+    <h2>MD5, SHA-1, atau SHA-256 — pakai yang mana?</h2>
+    <p>Untuk sekadar mengecek apakah file rusak saat download, semua algoritma ini sama-sama efektif. Tapi kalau tujuannya lebih ke soal keamanan (memastikan file tidak sengaja dimanipulasi pihak lain), SHA-256 atau yang lebih tinggi lebih disarankan, karena MD5 dan SHA-1 sudah diketahui punya kelemahan yang bisa dieksploitasi dalam skenario tertentu.</p>
+
+    <h2>Pertanyaan yang sering ditanyakan</h2>
+    <details class="mea-faq-item">
+      <summary>Apakah file saya diupload ke server saat dihitung hash-nya?</summary>
+      <p>Tidak. Perhitungan hash berjalan langsung di perangkat kamu. File tidak pernah dikirim ke mana pun.</p>
+    </details>
+    <details class="mea-faq-item">
+      <summary>Kenapa hash saya berbeda padahal filenya sama?</summary>
+      <p>Cek dulu apakah algoritma yang dipakai sama dengan sumber referensi — hash MD5 dan SHA-256 dari file yang sama pasti berbeda karena keduanya algoritma berbeda. Kalau algoritmanya sudah sama tapi tetap beda, kemungkinan filenya memang tidak identik.</p>
+    </details>
+    <details class="mea-faq-item">
+      <summary>Apakah ada batas ukuran file?</summary>
+      <p>Tidak ada batas dari sisi layanan, karena semua diproses di perangkatmu sendiri. Untuk file yang sangat besar, waktu prosesnya bergantung pada spesifikasi perangkat.</p>
+    </details>
+
+    <div class="mea-related">
+      <h2>Baca juga</h2>
+      <p><a href="/id/cara-buat-password-kuat.html">Cara Membuat Password Kuat yang Sulit Ditebak</a></p>
+      <p><a href="/id/cara-buat-qr-code.html">Cara Membuat QR Code Sendiri dengan Logo</a></p>
+      <p><a href="/id/kenapa-tools-online-pindah-ke-client-side.html">Kenapa Makin Banyak Tools Online Pindah ke Client-Side?</a></p>
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-row footer-row-top">
+      <div class="brand-lockup footer-brand">
+        <svg class="footer-logo-animated" viewBox="0 0 210 180" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect id="footer-box-left" x="24.5" y="30" width="100" height="100" rx="20" fill="none" stroke="var(--mea-accent)" stroke-width="8"/>
+          <path id="footer-box-right" d="M 123.86 45.00 L 173.11 45.17 L 179.35 47.06 L 182.68 49.13 L 185.54 51.81 L 188.98 57.35 L 190.46 63.69 L 190.50 120.00 L 189.82 125.18 L 187.13 131.11 L 183.69 135.04 L 178.15 138.48 L 171.81 139.96 L 112.89 139.83 L 107.85 138.48 L 104.39 136.63 L 101.36 134.14 L 98.18 130.00" fill="none" stroke="var(--mea-accent)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="brand" style="font-size:16px;">MEA Blog</span>
+      </div>
+      <div class="footer-copyright">© 2026 MEA Ecosystem. Seluruh hak cipta dilindungi.</div>
+    </div>
+    <div class="footer-row footer-row-bottom">
+      <nav class="footer-links">
+        <a href="https://legal.meaecosystem.com/meaecosystem/privacy">Privacy</a>
+        <a href="https://legal.meaecosystem.com/meaecosystem/terms">Terms</a>
+        <a href="https://legal.meaecosystem.com/meaecosystem/disclaimer">Disclaimer</a>
+      </nav>
+      <div class="footer-meta">
+        <a href="https://meaecosystem.com" class="brand">MEA Ecosystem</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
