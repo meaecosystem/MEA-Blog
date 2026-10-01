@@ -1,5 +1,75 @@
 [
   {
+    "id": "cara-konversi-satuan-berat",
+    "title": "Cara Konversi Satuan Berat: Kg, Gram, Ton, dan Pon",
+    "desc": "Panduan konversi satuan berat — miligram, gram, kilogram, ton, ons, dan pon — hasil real-time, langsung di browser.",
+    "category": "utilitas",
+    "url": "/id/cara-konversi-satuan-berat.html",
+    "date": "2026-10-01",
+    "icon": "default",
+    "keywords": ["konversi berat", "kg ke gram", "convert weight online", "kalkulator berat"]
+  },
+  {
+    "id": "cara-konversi-satuan-panjang",
+    "title": "Cara Konversi Satuan Panjang: Meter, Kilometer, Inci, dan Feet",
+    "desc": "Panduan konversi satuan panjang — milimeter, sentimeter, meter, kilometer, inci, kaki, yard, dan mil — hasil real-time, langsung di browser.",
+    "category": "utilitas",
+    "url": "/id/cara-konversi-satuan-panjang.html",
+    "date": "2026-10-01",
+    "icon": "default",
+    "keywords": ["konversi panjang", "meter ke feet", "convert length online", "inci ke cm"]
+  },
+  {
+    "id": "cara-konversi-suhu",
+    "title": "Cara Konversi Suhu: Celsius, Fahrenheit, dan Kelvin",
+    "desc": "Panduan konversi suhu antara Celsius, Fahrenheit, dan Kelvin secara instan, langsung di browser.",
+    "category": "utilitas",
+    "url": "/id/cara-konversi-suhu.html",
+    "date": "2026-10-01",
+    "icon": "default",
+    "keywords": ["konversi suhu", "celsius ke fahrenheit", "convert temperature online", "kalkulator suhu"]
+  },
+  {
+    "id": "cara-konversi-satuan-volume",
+    "title": "Cara Konversi Satuan Volume: Liter, Mililiter, Cup, dan Galon",
+    "desc": "Panduan konversi satuan volume — mililiter, liter, meter kubik, sendok teh, sendok makan, cup, dan galon — hasil real-time, langsung di browser.",
+    "category": "utilitas",
+    "url": "/id/cara-konversi-satuan-volume.html",
+    "date": "2026-10-01",
+    "icon": "default",
+    "keywords": ["konversi volume", "liter ke ml", "convert volume online", "cup ke ml"]
+  },
+  {
+    "id": "cara-cari-simbol-unicode",
+    "title": "Cara Mencari dan Menyalin Simbol yang Susah Diketik dari Keyboard",
+    "desc": "Panduan mencari dan menyalin simbol khusus, tanda baca, panah, bullet, dan karakter unicode lain, langsung di browser.",
+    "category": "text",
+    "url": "/id/cara-cari-simbol-unicode.html",
+    "date": "2026-10-01",
+    "icon": "text",
+    "keywords": ["simbol unicode", "cari simbol spesial", "karakter khusus online", "symbol picker"]
+  },
+  {
+    "id": "cara-main-gesture-glitch",
+    "title": "Cara Main Gesture Glitch, Bentuk Geometri dari Gerakan Tangan",
+    "desc": "Panduan main Gesture Glitch — arahkan jari ke kamera dan lihat bentuk geometri glitch muncul real-time, deteksi tangan langsung di browser tanpa upload.",
+    "category": "utilitas",
+    "url": "/id/cara-main-gesture-glitch.html",
+    "date": "2026-10-01",
+    "icon": "default",
+    "keywords": ["gesture glitch", "deteksi tangan kamera", "hand gesture online"]
+  },
+  {
+    "id": "cara-buat-meme",
+    "title": "Cara Membuat Meme Sendiri dari Gambar, Gratis Tanpa Watermark",
+    "desc": "Panduan bikin meme dari gambar sendiri, tambah teks sebanyak yang kamu mau, atur posisi, ukuran, dan gaya teksnya, langsung di browser.",
+    "category": "image",
+    "url": "/id/cara-buat-meme.html",
+    "date": "2026-10-01",
+    "icon": "image",
+    "keywords": ["meme generator", "cara buat meme", "bikin meme online gratis", "meme maker tanpa watermark"]
+  },
+  {
     "id": "cara-gambar-ke-pdf",
     "title": "Cara Mengubah Beberapa Gambar Jadi Satu File PDF",
     "desc": "Panduan menggabungkan beberapa gambar jadi satu file PDF, atur urutan dan ukuran halaman, langsung di browser tanpa upload ke server.",
