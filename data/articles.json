@@ -1,5 +1,85 @@
 [
   {
+    "id": "cara-gambar-ke-pdf",
+    "title": "Cara Mengubah Beberapa Gambar Jadi Satu File PDF",
+    "desc": "Panduan menggabungkan beberapa gambar jadi satu file PDF, atur urutan dan ukuran halaman, langsung di browser tanpa upload ke server.",
+    "category": "convert",
+    "url": "/id/cara-gambar-ke-pdf.html",
+    "date": "2026-10-01",
+    "icon": "pdf",
+    "keywords": ["gambar ke pdf", "image to pdf online", "ubah foto jadi pdf", "gabung foto jadi pdf"]
+  },
+  {
+    "id": "cara-perbesar-resolusi-gambar",
+    "title": "Cara Memperbesar Resolusi Gambar Tanpa Pecah (4x)",
+    "desc": "Panduan memperbesar resolusi gambar hingga 4x pakai AI, mendukung foto umum dan ilustrasi/anime, langsung di browser tanpa upload ke server.",
+    "category": "image",
+    "url": "/id/cara-perbesar-resolusi-gambar.html",
+    "date": "2026-10-01",
+    "icon": "image",
+    "keywords": ["upscale gambar", "perbesar resolusi foto", "image upscaler online", "perbesar gambar 4x"]
+  },
+  {
+    "id": "cara-tambah-watermark-gambar",
+    "title": "Cara Menambahkan Watermark ke Foto untuk Melindungi Karya",
+    "desc": "Panduan menambahkan watermark teks atau logo ke gambar/foto, atur posisi, rotasi, dan transparansi, langsung di browser tanpa upload ke server.",
+    "category": "image",
+    "url": "/id/cara-tambah-watermark-gambar.html",
+    "date": "2026-10-01",
+    "icon": "image",
+    "keywords": ["watermark foto", "tambah watermark gambar online", "watermark logo foto", "proteksi foto watermark"]
+  },
+  {
+    "id": "cara-ekstrak-gambar-dari-pdf",
+    "title": "Cara Mengambil Semua Gambar yang Ada di Dalam File PDF",
+    "desc": "Panduan mengambil semua gambar yang tertanam di dalam file PDF dan download sekaligus, langsung di browser tanpa upload ke server.",
+    "category": "convert",
+    "url": "/id/cara-ekstrak-gambar-dari-pdf.html",
+    "date": "2026-10-01",
+    "icon": "pdf",
+    "keywords": ["ekstrak gambar dari pdf", "ambil gambar pdf", "extract images pdf online"]
+  },
+  {
+    "id": "cara-beri-nomor-halaman-pdf",
+    "title": "Cara Memberi Nomor Halaman PDF untuk Skripsi dan Makalah",
+    "desc": "Panduan menambahkan nomor halaman ke PDF, mendukung angka romawi dan angka biasa dalam satu dokumen, cocok untuk skripsi dan makalah, langsung di browser.",
+    "category": "convert",
+    "url": "/id/cara-beri-nomor-halaman-pdf.html",
+    "date": "2026-10-01",
+    "icon": "pdf",
+    "keywords": ["nomor halaman pdf", "page number pdf online", "beri nomor halaman skripsi", "nomor halaman romawi pdf"]
+  },
+  {
+    "id": "cara-kasih-password-pdf",
+    "title": "Cara Memberi Password ke File PDF Agar Tidak Sembarang Dibuka",
+    "desc": "Panduan melindungi file PDF dengan password, pilih level enkripsi AES-128 atau AES-256, langsung di browser tanpa upload ke server.",
+    "category": "convert",
+    "url": "/id/cara-kasih-password-pdf.html",
+    "date": "2026-10-01",
+    "icon": "key",
+    "keywords": ["kasih password pdf", "protect pdf online", "kunci pdf dengan password", "enkripsi pdf"]
+  },
+  {
+    "id": "cara-hapus-password-pdf",
+    "title": "Cara Menghapus Password dari File PDF yang Kamu Punya Passwordnya",
+    "desc": "Panduan menghapus password dari file PDF yang sudah kamu ketahui passwordnya, langsung di browser tanpa upload ke server.",
+    "category": "convert",
+    "url": "/id/cara-hapus-password-pdf.html",
+    "date": "2026-10-01",
+    "icon": "key",
+    "keywords": ["hapus password pdf", "remove password pdf online", "buka password pdf", "unlock pdf"]
+  },
+  {
+    "id": "cara-putar-susun-ulang-pdf",
+    "title": "Cara Memutar, Menyusun Ulang, dan Menghapus Halaman PDF",
+    "desc": "Panduan memutar halaman PDF yang terbalik, menyusun ulang urutannya, atau menghapus halaman yang tidak perlu, langsung di browser.",
+    "category": "convert",
+    "url": "/id/cara-putar-susun-ulang-pdf.html",
+    "date": "2026-10-01",
+    "icon": "pdf",
+    "keywords": ["rotate pdf", "putar halaman pdf", "susun ulang halaman pdf", "hapus halaman pdf online"]
+  },
+  {
     "id": "cara-konversi-csv-json",
     "title": "Cara Mengubah CSV ke JSON dan Sebaliknya",
     "desc": "Panduan konversi CSV ke JSON atau JSON ke CSV, mendukung file besar tanpa macet, langsung di browser tanpa upload ke server.",
