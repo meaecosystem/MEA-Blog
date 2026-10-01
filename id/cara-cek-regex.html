@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>Cara Menguji Pola Regular Expression (Regex) Online | MEA Blog</title>
+<meta name="description" content="Panduan menguji pola regex, melihat kecocokan tersorot otomatis, dan detail tiap capture group, langsung di browser tanpa upload ke server." />
+<link rel="canonical" href="https://blog.meaecosystem.com/id/cara-cek-regex.html" />
+
+<link rel="icon" type="image/svg+xml" href="https://meaecosystem.com/shared/logo/favicon.svg" />
+
+<link rel="stylesheet" href="https://meaecosystem.com/shared/token/token-color.css" />
+<link rel="stylesheet" href="https://meaecosystem.com/shared/logo/logo-glow.css" />
+<link rel="stylesheet" href="/shared/blog.css" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Cara Menguji Pola Regex",
+  "description": "Panduan menguji pola regular expression dan melihat kecocokannya, langsung di browser.",
+  "step": [
+    { "@type": "HowToStep", "name": "Buka Regex Tester", "text": "Buka tools.meaecosystem.com/regex-tester/ di browser." },
+    { "@type": "HowToStep", "name": "Ketik pola regex", "text": "Masukkan pola regex yang mau diuji." },
+    { "@type": "HowToStep", "name": "Pilih flag", "text": "Centang flag g (global), i (abaikan huruf besar/kecil), atau m (multiline) sesuai kebutuhan." },
+    { "@type": "HowToStep", "name": "Tempel teks uji", "text": "Tempel teks yang mau diuji, hasil yang cocok langsung tersorot." }
+  ],
+  "isPartOf": { "@type": "WebSite", "name": "MEA Ecosystem", "url": "https://meaecosystem.com" },
+  "publisher": { "@type": "Organization", "name": "MEA Ecosystem", "url": "https://meaecosystem.com" }
+}
+</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="brand-lockup">
+      <img src="https://meaecosystem.com/shared/logo/logo-dark.svg" alt="" class="logo-glow" />
+      <span class="brand">MEA Blog</span>
+    </a>
+  </div>
+</header>
+
+<main class="container-article">
+  <nav class="mea-breadcrumb">
+    <a href="/">MEA Blog</a>
+    <span>/</span>
+    <a href="/#text">Teks</a>
+    <span>/</span>
+    <span aria-current="page">Cara Cek Regex</span>
+  </nav>
+
+  <header class="mea-article-header">
+    <span class="eyebrow">Panduan · Developer</span>
+    <h1>Cara Menguji Pola Regular Expression (Regex) Online</h1>
+    <p class="mea-article-lead">Nulis regex buat validasi email atau nomor telepon, tapi nggak yakin polanya benar? Daripada coba-coba langsung di kode produksi, uji dulu di sini dan lihat hasilnya real-time.</p>
+    <div class="mea-article-meta">
+      <span>1 Oktober 2026</span>
+      <span>·</span>
+      <span>3 menit baca</span>
+    </div>
+  </header>
+
+  <article class="mea-article-body">
+    <p>Regex Tester menunjukkan bagian teks mana saja yang cocok dengan pola regex kamu secara langsung — tersorot di antara teks lain — plus detail tiap kecocokan termasuk capture group kalau polanya menggunakan tanda kurung.</p>
+
+    <div class="mea-tool-cta glass">
+      <span class="eyebrow">Coba Sekarang</span>
+      <h3>Regex Tester — MEA Tools</h3>
+      <p>Uji pola regex langsung di browser, hasil yang cocok langsung disorot.</p>
+      <a href="https://tools.meaecosystem.com/regex-tester/" class="mea-tool-cta-btn">Buka Regex Tester →</a>
+    </div>
+
+    <h2>Langkah-langkah menguji regex</h2>
+    <ol>
+      <li>Buka <a href="https://tools.meaecosystem.com/regex-tester/">tools.meaecosystem.com/regex-tester</a>.</li>
+      <li>Ketik pola regex kamu di kolom pola.</li>
+      <li>Centang flag yang dibutuhkan: <code>g</code> untuk mencari semua kecocokan (bukan cuma yang pertama), <code>i</code> untuk mengabaikan perbedaan huruf besar/kecil, <code>m</code> untuk mode multiline.</li>
+      <li>Tempel atau ketik teks uji di kolom teks.</li>
+      <li>Bagian yang cocok dengan pola langsung tersorot, dan jumlah total kecocokan ditampilkan.</li>
+      <li>Kalau pola kamu memakai tanda kurung untuk capture group, detail tiap kecocokan (termasuk isi tiap grup) muncul di bagian bawah.</li>
+    </ol>
+
+    <h2>Flag g, i, m — kapan dipakai?</h2>
+    <p>Flag <code>g</code> (global) dibutuhkan kalau kamu mau mencari semua kemunculan pola di teks, bukan cuma yang pertama ditemukan — biasanya diaktifkan secara default. Flag <code>i</code> berguna kalau kamu tidak peduli perbedaan huruf besar-kecil, misalnya mencari kata tanpa peduli ditulis besar atau kecil. Flag <code>m</code> mengubah perilaku tanda <code>^</code> dan <code>$</code> supaya cocok dengan awal/akhir tiap baris, bukan cuma awal/akhir keseluruhan teks — berguna untuk teks yang punya banyak baris.</p>
+
+    <h2>Kenapa pola saya tidak cocok padahal terlihat benar?</h2>
+    <p>Penyebab paling umum: lupa escape karakter spesial regex (seperti titik atau tanda kurung yang seharusnya dicari sebagai karakter biasa, bukan sebagai sintaks regex), atau flag yang dibutuhkan belum dicentang. Coba sorot ulang teks uji dengan pola yang lebih sederhana dulu, baru tambahkan kompleksitas sedikit demi sedikit sampai ketemu bagian yang bermasalah.</p>
+
+    <h2>Pertanyaan yang sering ditanyakan</h2>
+    <details class="mea-faq-item">
+      <summary>Apakah pola dan teks saya dikirim ke server?</summary>
+      <p>Tidak. Pengujian regex berjalan langsung di browser kamu memakai mesin regex bawaan JavaScript.</p>
+    </details>
+    <details class="mea-faq-item">
+      <summary>Apakah semua jenis regex didukung?</summary>
+      <p>Tool ini memakai mesin regex JavaScript bawaan browser, jadi sintaks yang didukung mengikuti standar regex JavaScript — mungkin ada sedikit perbedaan kalau kamu membandingkannya dengan regex di bahasa pemrograman lain seperti Python atau PHP.</p>
+    </details>
+    <details class="mea-faq-item">
+      <summary>Apa itu capture group?</summary>
+      <p>Capture group adalah bagian dari pola regex yang ditandai tanda kurung, dipakai untuk "menangkap" dan mengambil bagian tertentu dari teks yang cocok, bukan cuma mengetahui cocok atau tidaknya secara keseluruhan.</p>
+    </details>
+
+    <div class="mea-related">
+      <h2>Baca juga</h2>
+      <p><a href="/id/cara-konversi-csv-json.html">Cara Mengubah CSV ke JSON dan Sebaliknya</a></p>
+      <p><a href="/id/cara-encode-decode-url.html">Cara Encode dan Decode URL untuk Karakter Khusus</a></p>
+      <p><a href="/id/cara-format-json.html">Cara Merapikan dan Validasi JSON yang Berantakan</a></p>
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-row footer-row-top">
+      <div class="brand-lockup footer-brand">
+        <svg class="footer-logo-animated" viewBox="0 0 210 180" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect id="footer-box-left" x="24.5" y="30" width="100" height="100" rx="20" fill="none" stroke="var(--mea-accent)" stroke-width="8"/>
+          <path id="footer-box-right" d="M 123.86 45.00 L 173.11 45.17 L 179.35 47.06 L 182.68 49.13 L 185.54 51.81 L 188.98 57.35 L 190.46 63.69 L 190.50 120.00 L 189.82 125.18 L 187.13 131.11 L 183.69 135.04 L 178.15 138.48 L 171.81 139.96 L 112.89 139.83 L 107.85 138.48 L 104.39 136.63 L 101.36 134.14 L 98.18 130.00" fill="none" stroke="var(--mea-accent)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="brand" style="font-size:16px;">MEA Blog</span>
+      </div>
+      <div class="footer-copyright">© 2026 MEA Ecosystem. Seluruh hak cipta dilindungi.</div>
+    </div>
+    <div class="footer-row footer-row-bottom">
+      <nav class="footer-links">
+        <a href="https://legal.meaecosystem.com/meaecosystem/privacy">Privacy</a>
+        <a href="https://legal.meaecosystem.com/meaecosystem/terms">Terms</a>
+        <a href="https://legal.meaecosystem.com/meaecosystem/disclaimer">Disclaimer</a>
+      </nav>
+      <div class="footer-meta">
+        <a href="https://meaecosystem.com" class="brand">MEA Ecosystem</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,5 +1,85 @@
 [
   {
+    "id": "cara-konversi-csv-json",
+    "title": "Cara Mengubah CSV ke JSON dan Sebaliknya",
+    "desc": "Panduan konversi CSV ke JSON atau JSON ke CSV, mendukung file besar tanpa macet, langsung di browser tanpa upload ke server.",
+    "category": "text",
+    "url": "/id/cara-konversi-csv-json.html",
+    "date": "2026-10-01",
+    "icon": "code",
+    "keywords": ["csv to json", "json to csv", "convert csv online", "csv json converter"]
+  },
+  {
+    "id": "cara-cek-regex",
+    "title": "Cara Menguji Pola Regular Expression (Regex) Online",
+    "desc": "Panduan menguji pola regex, melihat kecocokan tersorot otomatis, dan detail tiap capture group, langsung di browser tanpa upload ke server.",
+    "category": "text",
+    "url": "/id/cara-cek-regex.html",
+    "date": "2026-10-01",
+    "icon": "code",
+    "keywords": ["regex tester", "cek regex online", "uji regular expression", "test regex"]
+  },
+  {
+    "id": "cara-buat-slug-url",
+    "title": "Cara Membuat URL Slug yang SEO-Friendly dari Judul Artikel",
+    "desc": "Panduan mengubah judul artikel atau nama produk jadi URL slug yang rapi dan SEO-friendly secara otomatis, langsung di browser.",
+    "category": "text",
+    "url": "/id/cara-buat-slug-url.html",
+    "date": "2026-10-01",
+    "icon": "text",
+    "keywords": ["slug generator", "cara buat slug url", "slug seo friendly", "generate slug online"]
+  },
+  {
+    "id": "cara-encode-decode-url",
+    "title": "Cara Encode dan Decode URL untuk Karakter Khusus",
+    "desc": "Panduan mengubah teks jadi format URL yang aman (encode) atau membaca kembali URL yang sudah ter-encode (decode), langsung di browser.",
+    "category": "text",
+    "url": "/id/cara-encode-decode-url.html",
+    "date": "2026-10-01",
+    "icon": "code",
+    "keywords": ["url encoder", "url decoder online", "encode decode url", "percent encoding"]
+  },
+  {
+    "id": "cara-ubah-case-teks",
+    "title": "Cara Mengubah Format Huruf Teks: UPPERCASE, camelCase, snake_case",
+    "desc": "Panduan mengubah format huruf teks ke UPPERCASE, lowercase, Title Case, camelCase, PascalCase, snake_case, atau kebab-case sekaligus, langsung di browser.",
+    "category": "text",
+    "url": "/id/cara-ubah-case-teks.html",
+    "date": "2026-10-01",
+    "icon": "text",
+    "keywords": ["text case converter", "ubah huruf besar kecil", "camelcase converter", "snake case online"]
+  },
+  {
+    "id": "cara-resize-gambar",
+    "title": "Cara Mengubah Ukuran (Dimensi) Gambar Tanpa Gepeng",
+    "desc": "Panduan mengubah ukuran dimensi gambar dengan atau tanpa mengunci rasio aspek, langsung di browser, tanpa upload ke server.",
+    "category": "image",
+    "url": "/id/cara-resize-gambar.html",
+    "date": "2026-10-01",
+    "icon": "image",
+    "keywords": ["resize gambar", "ubah ukuran foto online", "resize image", "perbesar perkecil foto"]
+  },
+  {
+    "id": "cara-crop-gambar",
+    "title": "Cara Memotong (Crop) Gambar dengan Rasio yang Pas",
+    "desc": "Panduan memotong bagian gambar sesuai kebutuhan, bebas atau dengan rasio 1:1, 4:3, 16:9, dan lainnya, langsung di browser.",
+    "category": "image",
+    "url": "/id/cara-crop-gambar.html",
+    "date": "2026-10-01",
+    "icon": "image",
+    "keywords": ["crop gambar online", "potong foto", "crop foto rasio", "crop image 1:1"]
+  },
+  {
+    "id": "cara-hitung-umur",
+    "title": "Cara Menghitung Umur Persis dan Selisih Dua Tanggal",
+    "desc": "Panduan menghitung umur persis dalam tahun, bulan, dan hari, atau selisih antara dua tanggal, langsung di browser.",
+    "category": "utilitas",
+    "url": "/id/cara-hitung-umur.html",
+    "date": "2026-10-01",
+    "icon": "clock",
+    "keywords": ["kalkulator umur", "hitung umur online", "selisih tanggal", "age calculator"]
+  },
+  {
     "id": "cara-kompres-pdf",
     "title": "Cara Memperkecil Ukuran File PDF Tanpa Aplikasi Tambahan",
     "desc": "Panduan mengompres ukuran file PDF dengan mengecilkan gambar di dalamnya, langsung di browser, tanpa upload ke server dan tanpa install aplikasi.",

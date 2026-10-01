@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>Cara Encode dan Decode URL untuk Karakter Khusus | MEA Blog</title>
+<meta name="description" content="Panduan mengubah teks jadi format URL yang aman (encode) atau membaca kembali URL yang sudah ter-encode (decode), langsung di browser." />
+<link rel="canonical" href="https://blog.meaecosystem.com/id/cara-encode-decode-url.html" />
+
+<link rel="icon" type="image/svg+xml" href="https://meaecosystem.com/shared/logo/favicon.svg" />
+
+<link rel="stylesheet" href="https://meaecosystem.com/shared/token/token-color.css" />
+<link rel="stylesheet" href="https://meaecosystem.com/shared/logo/logo-glow.css" />
+<link rel="stylesheet" href="/shared/blog.css" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Cara Encode dan Decode URL",
+  "description": "Panduan encode dan decode URL untuk karakter khusus, langsung di browser.",
+  "step": [
+    { "@type": "HowToStep", "name": "Buka URL Encoder", "text": "Buka tools.meaecosystem.com/url-encoder/ di browser." },
+    { "@type": "HowToStep", "name": "Pilih mode", "text": "Pilih Encode untuk mengubah teks jadi aman di URL, atau Decode untuk sebaliknya." },
+    { "@type": "HowToStep", "name": "Atur mode encode", "text": "Jika Encode, pilih apakah mau encode karakter komponen penuh atau sekadar merapikan URL lengkap." },
+    { "@type": "HowToStep", "name": "Masukkan teks", "text": "Ketik atau tempel teks, hasil muncul otomatis." }
+  ],
+  "isPartOf": { "@type": "WebSite", "name": "MEA Ecosystem", "url": "https://meaecosystem.com" },
+  "publisher": { "@type": "Organization", "name": "MEA Ecosystem", "url": "https://meaecosystem.com" }
+}
+</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="brand-lockup">
+      <img src="https://meaecosystem.com/shared/logo/logo-dark.svg" alt="" class="logo-glow" />
+      <span class="brand">MEA Blog</span>
+    </a>
+  </div>
+</header>
+
+<main class="container-article">
+  <nav class="mea-breadcrumb">
+    <a href="/">MEA Blog</a>
+    <span>/</span>
+    <a href="/#text">Teks</a>
+    <span>/</span>
+    <span aria-current="page">Cara Encode Decode URL</span>
+  </nav>
+
+  <header class="mea-article-header">
+    <span class="eyebrow">Panduan · Developer</span>
+    <h1>Cara Encode dan Decode URL untuk Karakter Khusus</h1>
+    <p class="mea-article-lead">Pernah lihat URL penuh tanda persen dan angka aneh seperti %20 atau %3F? Itu hasil encoding URL. Begini cara mengubah teks jadi format itu, dan membacanya kembali.</p>
+    <div class="mea-article-meta">
+      <span>1 Oktober 2026</span>
+      <span>·</span>
+      <span>2 menit baca</span>
+    </div>
+  </header>
+
+  <article class="mea-article-body">
+    <p>URL cuma boleh berisi karakter tertentu — spasi, tanda tanya, ampersand, dan karakter non-Latin harus diubah dulu ke format persen (misalnya spasi jadi <code>%20</code>) supaya URL-nya valid dan tidak rusak saat dibuka. URL Encoder & Decoder mengubah teks dua arah: jadi format URL yang aman, atau membaca kembali format itu jadi teks biasa.</p>
+
+    <div class="mea-tool-cta glass">
+      <span class="eyebrow">Coba Sekarang</span>
+      <h3>URL Encoder & Decoder — MEA Tools</h3>
+      <p>Ubah teks jadi format URL yang aman (encode), atau baca kembali URL yang sudah ter-encode (decode), langsung di browser.</p>
+      <a href="https://tools.meaecosystem.com/url-encoder/" class="mea-tool-cta-btn">Buka URL Encoder →</a>
+    </div>
+
+    <h2>Langkah-langkah encode/decode URL</h2>
+    <ol>
+      <li>Buka <a href="https://tools.meaecosystem.com/url-encoder/">tools.meaecosystem.com/url-encoder</a>.</li>
+      <li>Pilih tab "Encode" atau "Decode" sesuai kebutuhan.</li>
+      <li>Kalau mode Encode, perhatikan opsi "Encode karakter komponen penuh" — jelasan bedanya ada di bagian bawah.</li>
+      <li>Ketik atau tempel teksnya, hasil muncul otomatis.</li>
+    </ol>
+
+    <h2>Dua mode encode, pilih yang mana?</h2>
+    <p>Ada dua cara encode URL dan keduanya beda fungsi. Aktifkan opsi "Encode karakter komponen penuh" kalau teks yang kamu encode akan jadi <strong>nilai dari satu parameter URL</strong> — misalnya isi pencarian yang disisipkan ke URL. Mode ini meng-encode semua karakter khusus termasuk <code>& ? / = #</code>. Matikan opsi itu kalau teks kamu sudah berupa <strong>URL lengkap</strong> yang cuma perlu dirapikan karakter khususnya (spasi, huruf non-Latin), tapi strukturnya (seperti <code>://</code>, <code>&</code>, <code>?</code>) harus tetap dipertahankan supaya URL-nya tidak rusak.</p>
+
+    <h2>Kenapa penting memilih mode yang tepat?</h2>
+    <p>Kalau kamu salah pilih mode — misalnya meng-encode seluruh URL (termasuk <code>://</code> dan <code>?</code>) padahal seharusnya cuma nilai parameternya saja — URL hasilnya jadi tidak valid dan tidak akan berfungsi saat dibuka di browser. Makanya penting memahami dulu apakah teks kamu itu "URL penuh" atau "cuma bagian nilai dari satu parameter".</p>
+
+    <h2>Pertanyaan yang sering ditanyakan</h2>
+    <details class="mea-faq-item">
+      <summary>Apakah teks saya dikirim ke server?</summary>
+      <p>Tidak. Proses encode dan decode berjalan langsung di browser kamu.</p>
+    </details>
+    <details class="mea-faq-item">
+      <summary>Kenapa hasil decode saya masih ada tanda persen?</summary>
+      <p>Kemungkinan teks itu di-encode dua kali sebelumnya, jadi butuh proses decode lebih dari sekali untuk kembali ke teks aslinya.</p>
+    </details>
+    <details class="mea-faq-item">
+      <summary>Apa bedanya karakter yang di-encode dan yang tidak?</summary>
+      <p>Karakter yang termasuk struktur dasar URL (seperti <code>: / ? #</code>) biasanya dibiarkan apa adanya kalau yang di-encode adalah URL lengkap, tapi ikut di-encode kalau yang diproses adalah nilai komponen tunggal.</p>
+    </details>
+
+    <div class="mea-related">
+      <h2>Baca juga</h2>
+      <p><a href="/id/cara-buat-slug-url.html">Cara Membuat URL Slug yang SEO-Friendly dari Judul Artikel</a></p>
+      <p><a href="/id/cara-encode-decode-base64.html">Cara Encode dan Decode Teks ke Base64</a></p>
+      <p><a href="/id/cara-cek-regex.html">Cara Menguji Pola Regular Expression (Regex) Online</a></p>
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-row footer-row-top">
+      <div class="brand-lockup footer-brand">
+        <svg class="footer-logo-animated" viewBox="0 0 210 180" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect id="footer-box-left" x="24.5" y="30" width="100" height="100" rx="20" fill="none" stroke="var(--mea-accent)" stroke-width="8"/>
+          <path id="footer-box-right" d="M 123.86 45.00 L 173.11 45.17 L 179.35 47.06 L 182.68 49.13 L 185.54 51.81 L 188.98 57.35 L 190.46 63.69 L 190.50 120.00 L 189.82 125.18 L 187.13 131.11 L 183.69 135.04 L 178.15 138.48 L 171.81 139.96 L 112.89 139.83 L 107.85 138.48 L 104.39 136.63 L 101.36 134.14 L 98.18 130.00" fill="none" stroke="var(--mea-accent)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="brand" style="font-size:16px;">MEA Blog</span>
+      </div>
+      <div class="footer-copyright">© 2026 MEA Ecosystem. Seluruh hak cipta dilindungi.</div>
+    </div>
+    <div class="footer-row footer-row-bottom">
+      <nav class="footer-links">
+        <a href="https://legal.meaecosystem.com/meaecosystem/privacy">Privacy</a>
+        <a href="https://legal.meaecosystem.com/meaecosystem/terms">Terms</a>
+        <a href="https://legal.meaecosystem.com/meaecosystem/disclaimer">Disclaimer</a>
+      </nav>
+      <div class="footer-meta">
+        <a href="https://meaecosystem.com" class="brand">MEA Ecosystem</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
