@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>Cara Membuat UUID v4 untuk Kebutuhan Development | MEA Blog</title>
+<meta name="description" content="Panduan generate UUID v4 acak sebanyak yang dibutuhkan, salin satu atau semua sekaligus, langsung di browser tanpa upload ke server." />
+<link rel="canonical" href="https://blog.meaecosystem.com/id/cara-buat-uuid.html" />
+
+<link rel="icon" type="image/svg+xml" href="https://meaecosystem.com/shared/logo/favicon.svg" />
+
+<link rel="stylesheet" href="https://meaecosystem.com/shared/token/token-color.css" />
+<link rel="stylesheet" href="https://meaecosystem.com/shared/logo/logo-glow.css" />
+<link rel="stylesheet" href="/shared/blog.css" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Cara Membuat UUID v4",
+  "description": "Panduan generate UUID v4 acak, langsung di browser.",
+  "step": [
+    { "@type": "HowToStep", "name": "Buka UUID Generator", "text": "Buka tools.meaecosystem.com/uuid-generator/ di browser." },
+    { "@type": "HowToStep", "name": "Tentukan jumlah", "text": "Masukkan berapa banyak UUID yang mau dibuat sekaligus." },
+    { "@type": "HowToStep", "name": "Buat UUID", "text": "Klik Buat UUID." },
+    { "@type": "HowToStep", "name": "Salin hasil", "text": "Salin satu UUID tertentu, atau salin semuanya sekaligus." }
+  ],
+  "isPartOf": { "@type": "WebSite", "name": "MEA Ecosystem", "url": "https://meaecosystem.com" },
+  "publisher": { "@type": "Organization", "name": "MEA Ecosystem", "url": "https://meaecosystem.com" }
+}
+</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="brand-lockup">
+      <img src="https://meaecosystem.com/shared/logo/logo-dark.svg" alt="" class="logo-glow" />
+      <span class="brand">MEA Blog</span>
+    </a>
+  </div>
+</header>
+
+<main class="container-article">
+  <nav class="mea-breadcrumb">
+    <a href="/">MEA Blog</a>
+    <span>/</span>
+    <a href="/#utilitas">Utilitas</a>
+    <span>/</span>
+    <span aria-current="page">Cara Buat UUID</span>
+  </nav>
+
+  <header class="mea-article-header">
+    <span class="eyebrow">Panduan · Developer</span>
+    <h1>Cara Membuat UUID v4 untuk Kebutuhan Development</h1>
+    <p class="mea-article-lead">Butuh identifier unik buat primary key database, session ID, atau testing API, tapi males nulis kode generate-nya sendiri? Begini cara bikin banyak UUID sekaligus dalam sekali klik.</p>
+    <div class="mea-article-meta">
+      <span>1 Oktober 2026</span>
+      <span>·</span>
+      <span>2 menit baca</span>
+    </div>
+  </header>
+
+  <article class="mea-article-body">
+    <p>UUID (Universally Unique Identifier) adalah string 128-bit yang dipakai untuk mengidentifikasi sesuatu secara unik tanpa perlu koordinasi dengan sistem lain — peluang dua UUID v4 yang sama persis secara acak nyaris nol. Tool ini generate UUID versi 4 (yang paling umum dipakai, berbasis angka acak) langsung di browser.</p>
+
+    <div class="mea-tool-cta glass">
+      <span class="eyebrow">Coba Sekarang</span>
+      <h3>UUID Generator — MEA Tools</h3>
+      <p>Generate UUID v4 acak sebanyak yang kamu mau, langsung di browser.</p>
+      <a href="https://tools.meaecosystem.com/uuid-generator/" class="mea-tool-cta-btn">Buka UUID Generator →</a>
+    </div>
+
+    <h2>Langkah-langkah membuat UUID</h2>
+    <ol>
+      <li>Buka <a href="https://tools.meaecosystem.com/uuid-generator/">tools.meaecosystem.com/uuid-generator</a>.</li>
+      <li>Masukkan berapa banyak UUID yang mau dibuat sekaligus.</li>
+      <li>Klik "Buat UUID".</li>
+      <li>Salin satu UUID tertentu dengan klik di sebelahnya, atau salin semuanya sekaligus kalau butuh banyak.</li>
+    </ol>
+
+    <h2>Kenapa harus UUID, bukan angka biasa yang naik urut?</h2>
+    <p>ID yang naik urut (1, 2, 3, dst) gampang ditebak dan bisa membocorkan informasi, misalnya seberapa banyak data yang sudah dibuat sistem. UUID bersifat acak dan tidak berurutan, jadi lebih aman dipakai di tempat yang terekspos publik (seperti URL atau API response), dan juga memudahkan penggabungan data dari beberapa sistem berbeda tanpa risiko tabrakan ID.</p>
+
+    <h2>Pertanyaan yang sering ditanyakan</h2>
+    <details class="mea-faq-item">
+      <summary>Apakah UUID yang dibuat di sini dikirim ke server?</summary>
+      <p>Tidak. UUID dibuat langsung di browser kamu memakai angka acak, tidak ada data yang dikirim ke mana pun.</p>
+    </details>
+    <details class="mea-faq-item">
+      <summary>Apakah UUID bisa sama persis dengan yang dibuat orang lain?</summary>
+      <p>Secara teori mungkin, tapi peluangnya sangat kecil sehingga dalam praktiknya dianggap nyaris tidak mungkin terjadi.</p>
+    </details>
+    <details class="mea-faq-item">
+      <summary>Apa bedanya UUID v4 dengan versi lain?</summary>
+      <p>UUID punya beberapa versi berdasarkan cara pembuatannya. Versi 4 dibuat murni dari angka acak, dan merupakan versi paling umum dipakai untuk kebutuhan sehari-hari karena paling sederhana dan tidak membutuhkan informasi tambahan seperti timestamp atau alamat perangkat.</p>
+    </details>
+
+    <div class="mea-related">
+      <h2>Baca juga</h2>
+      <p><a href="/id/cara-encode-decode-base64.html">Cara Encode dan Decode Teks ke Base64</a></p>
+      <p><a href="/id/cara-cek-hash-file.html">Cara Cek Hash File (MD5, SHA-256) untuk Verifikasi Keaslian</a></p>
+      <p><a href="/id/cara-buat-password-kuat.html">Cara Membuat Password Kuat yang Sulit Ditebak</a></p>
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-row footer-row-top">
+      <div class="brand-lockup footer-brand">
+        <svg class="footer-logo-animated" viewBox="0 0 210 180" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect id="footer-box-left" x="24.5" y="30" width="100" height="100" rx="20" fill="none" stroke="var(--mea-accent)" stroke-width="8"/>
+          <path id="footer-box-right" d="M 123.86 45.00 L 173.11 45.17 L 179.35 47.06 L 182.68 49.13 L 185.54 51.81 L 188.98 57.35 L 190.46 63.69 L 190.50 120.00 L 189.82 125.18 L 187.13 131.11 L 183.69 135.04 L 178.15 138.48 L 171.81 139.96 L 112.89 139.83 L 107.85 138.48 L 104.39 136.63 L 101.36 134.14 L 98.18 130.00" fill="none" stroke="var(--mea-accent)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="brand" style="font-size:16px;">MEA Blog</span>
+      </div>
+      <div class="footer-copyright">© 2026 MEA Ecosystem. Seluruh hak cipta dilindungi.</div>
+    </div>
+    <div class="footer-row footer-row-bottom">
+      <nav class="footer-links">
+        <a href="https://legal.meaecosystem.com/meaecosystem/privacy">Privacy</a>
+        <a href="https://legal.meaecosystem.com/meaecosystem/terms">Terms</a>
+        <a href="https://legal.meaecosystem.com/meaecosystem/disclaimer">Disclaimer</a>
+      </nav>
+      <div class="footer-meta">
+        <a href="https://meaecosystem.com" class="brand">MEA Ecosystem</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

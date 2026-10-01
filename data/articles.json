@@ -1,5 +1,85 @@
 [
   {
+    "id": "cara-kompres-pdf",
+    "title": "Cara Memperkecil Ukuran File PDF Tanpa Aplikasi Tambahan",
+    "desc": "Panduan mengompres ukuran file PDF dengan mengecilkan gambar di dalamnya, langsung di browser, tanpa upload ke server dan tanpa install aplikasi.",
+    "category": "convert",
+    "url": "/id/cara-kompres-pdf.html",
+    "date": "2026-10-01",
+    "icon": "pdf",
+    "keywords": ["kompres pdf", "perkecil ukuran pdf", "compress pdf online", "cara mengecilkan ukuran pdf"]
+  },
+  {
+    "id": "cara-hapus-background-foto",
+    "title": "Cara Menghapus Background Foto Jadi Transparan, Langsung di Browser",
+    "desc": "Panduan menghapus background foto otomatis pakai AI, langsung di browser, tanpa upload ke server, hasil PNG transparan.",
+    "category": "image",
+    "url": "/id/cara-hapus-background-foto.html",
+    "date": "2026-10-01",
+    "icon": "image",
+    "keywords": ["hapus background foto", "remove background online", "background transparan", "hapus bg foto ai"]
+  },
+  {
+    "id": "cara-konversi-pdf-ke-word",
+    "title": "Cara Mengubah PDF Jadi Word (DOCX) Lengkap dengan Tabel dan Gambar",
+    "desc": "Panduan konversi PDF ke Word (.docx) lengkap dengan teks, tabel, dan gambar, termasuk OCR untuk halaman hasil scan, langsung di browser.",
+    "category": "convert",
+    "url": "/id/cara-konversi-pdf-ke-word.html",
+    "date": "2026-10-01",
+    "icon": "pdf",
+    "keywords": ["pdf ke word", "convert pdf ke docx", "pdf to word online", "ubah pdf jadi word"]
+  },
+  {
+    "id": "cara-konversi-format-gambar",
+    "title": "Cara Mengubah Format Gambar ke PNG, JPG, atau WebP",
+    "desc": "Panduan mengubah format gambar ke PNG, JPG, WebP, atau AVIF, bisa banyak file sekaligus, langsung di browser tanpa upload ke server.",
+    "category": "image",
+    "url": "/id/cara-konversi-format-gambar.html",
+    "date": "2026-10-01",
+    "icon": "image",
+    "keywords": ["convert format gambar", "ubah png ke jpg", "jpg ke webp", "konversi gambar online"]
+  },
+  {
+    "id": "cara-buat-uuid",
+    "title": "Cara Membuat UUID v4 untuk Kebutuhan Development",
+    "desc": "Panduan generate UUID v4 acak sebanyak yang dibutuhkan, salin satu atau semua sekaligus, langsung di browser tanpa upload ke server.",
+    "category": "utilitas",
+    "url": "/id/cara-buat-uuid.html",
+    "date": "2026-10-01",
+    "icon": "code",
+    "keywords": ["uuid generator", "cara buat uuid", "generate uuid v4 online", "uuid online"]
+  },
+  {
+    "id": "cara-encode-decode-base64",
+    "title": "Cara Encode dan Decode Teks ke Base64",
+    "desc": "Panduan encode teks jadi base64 atau decode base64 kembali jadi teks biasa, mendukung emoji dan huruf non-Latin, langsung di browser.",
+    "category": "text",
+    "url": "/id/cara-encode-decode-base64.html",
+    "date": "2026-10-01",
+    "icon": "code",
+    "keywords": ["base64 encoder", "base64 decoder online", "encode decode base64", "cara decode base64"]
+  },
+  {
+    "id": "cara-konversi-mata-uang",
+    "title": "Cara Konversi Mata Uang Rupiah ke Dolar, Euro, dan Lainnya",
+    "desc": "Panduan konversi mata uang memakai kurs referensi offline yang diberi label periode update — bukan kurs live, langsung di browser.",
+    "category": "utilitas",
+    "url": "/id/cara-konversi-mata-uang.html",
+    "date": "2026-10-01",
+    "icon": "default",
+    "keywords": ["konversi mata uang", "kurs rupiah ke dolar", "convert currency online", "kurs euro"]
+  },
+  {
+    "id": "cara-ekstrak-teks-dari-gambar",
+    "title": "Cara Mengambil Teks dari Foto atau Gambar (OCR)",
+    "desc": "Panduan mengekstrak teks dari foto atau gambar (OCR) tanpa batas jumlah gambar, langsung di browser, hasil digabung jadi satu file teks.",
+    "category": "text",
+    "url": "/id/cara-ekstrak-teks-dari-gambar.html",
+    "date": "2026-10-01",
+    "icon": "text",
+    "keywords": ["ocr online", "ekstrak teks dari gambar", "image to text", "ambil teks dari foto"]
+  },
+  {
     "id": "cara-buat-qr-code",
     "title": "Cara Membuat QR Code Sendiri dengan Logo, Gratis Tanpa Watermark",
     "desc": "Panduan bikin QR code sendiri lengkap dengan logo dan warna custom, langsung di browser, tanpa upload ke server dan tanpa watermark mengganggu.",
