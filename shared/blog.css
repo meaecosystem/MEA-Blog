@@ -795,7 +795,7 @@ ul, ol { list-style: none; }
   color: #fff;
   transition: background 0.2s ease;
 }
-.mea-tool-cta-btn:hover { background: var(--mea-accent-hover); color: #fff; }
+.mea-article-body a.mea-tool-cta-btn:hover { background: var(--mea-accent-hover); color: #fff; }
 
 /* ---------- FAQ (reuse pattern dari tools) ---------- */
 
