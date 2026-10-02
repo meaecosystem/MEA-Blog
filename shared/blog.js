@@ -15,6 +15,7 @@ const BLOG_CATEGORIES = [
   { id: "privasi", label: "Privasi & Keamanan" },
   { id: "riset", label: "Riset & AI" },
   { id: "utilitas", label: "Utilitas" },
+  { id: "tentang", label: "Tentang MEA Tools" },
 ];
 
 const BLOG_SORTS = [
@@ -37,6 +38,8 @@ const MEA_ICONS = {
   code: '<path d="m8 9-4 3 4 3M16 9l4 3-4 3M13 6l-2 12"/>',
   hash: '<path d="M5 9h14M5 15h14M10 3 7 21M17 3l-3 18"/>',
   clock: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/>',
+  gift: '<rect x="3" y="8" width="18" height="13" rx="1"/><path d="M3 12h18M12 8v13"/><path d="M12 8c-1.2 0-3-1-3-2.6A2.4 2.4 0 0 1 11.4 3c1.6 0 2.6 2 .6 5ZM12 8c1.2 0 3-1 3-2.6A2.4 2.4 0 0 0 12.6 3c-1.6 0-2.6 2-.6 5Z"/>',
+  gauge: '<circle cx="12" cy="13" r="8"/><path d="M12 13 16 9M9 4.6l.3 1M15 4.6l-.3 1M4.6 9l1 .3M19.4 9l-1 .3"/>',
   default: '<circle cx="12" cy="12" r="9"/>',
 };
 

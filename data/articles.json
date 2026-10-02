@@ -1,5 +1,65 @@
 [
   {
+    "id": "kenapa-mea-tools-gratis-tanpa-watermark",
+    "title": "Kenapa Semua Tools di MEA Tools Gratis dan Tanpa Watermark?",
+    "desc": "Kebanyakan tools online 'gratis' punya jebakan: watermark, limit harian, atau paywall tersembunyi. MEA Tools nggak pakai model itu. Ini alasannya.",
+    "category": "tentang",
+    "url": "/id/kenapa-mea-tools-gratis-tanpa-watermark.html",
+    "date": "2026-10-02",
+    "icon": "gift",
+    "keywords": [
+      "MEA Tools gratis",
+      "tools tanpa watermark",
+      "tools online gratis selamanya",
+      "MEA Tools bisnis model"
+    ]
+  },
+  {
+    "id": "kenapa-mea-tools-library-dibangun-dari-nol",
+    "title": "Kenapa Library di MEA Tools Dibangun dari Nol, Bukan Pakai Library Orang?",
+    "desc": "Parser PDF, konversi DOCX, sampai fungsi hash dan enkripsi di MEA Tools ditulis sendiri dari nol -- bukan nempel library open-source. Ini alasan dan batasannya, apa adanya.",
+    "category": "tentang",
+    "url": "/id/kenapa-mea-tools-library-dibangun-dari-nol.html",
+    "date": "2026-10-02",
+    "icon": "code",
+    "keywords": [
+      "MEA Tools library sendiri",
+      "parser PDF custom",
+      "tools tanpa dependency",
+      "pdf-lib dari nol"
+    ]
+  },
+  {
+    "id": "mea-tools-nyesuaiin-diri-otomatis-sesuai-device",
+    "title": "Begini Cara MEA Tools Nyesuaiin Diri Otomatis ke Perangkatmu",
+    "desc": "MEA Tools diam-diam mendeteksi RAM, jumlah core CPU, bahkan FPS aktual saat kamu scroll, lalu menyesuaikan tampilan supaya tetap lancar -- mulai dari HP kelas bawah sampai laptop kencang.",
+    "category": "tentang",
+    "url": "/id/mea-tools-nyesuaiin-diri-otomatis-sesuai-device.html",
+    "date": "2026-10-02",
+    "icon": "gauge",
+    "keywords": [
+      "adaptive performance web",
+      "deteksi device otomatis",
+      "tools ringan HP lama",
+      "MEA Tools performa"
+    ]
+  },
+  {
+    "id": "kenapa-mea-tools-gak-bikin-browser-ngelag",
+    "title": "Kenapa Proses File Besar di MEA Tools Nggak Bikin Browser Freeze?",
+    "desc": "Upscale gambar atau OCR dokumen besar biasanya bikin tab browser freeze total. Di MEA Tools nggak, karena pekerjaan berat dilempar ke thread terpisah lewat Web Worker.",
+    "category": "tentang",
+    "url": "/id/kenapa-mea-tools-gak-bikin-browser-ngelag.html",
+    "date": "2026-10-02",
+    "icon": "gauge",
+    "keywords": [
+      "Web Worker browser",
+      "tools online tidak freeze",
+      "upscaler gambar lancar",
+      "MEA Tools performa"
+    ]
+  },
+  {
     "id": "gpt-6-vs-gemini-perbandingan",
     "title": "GPT-6 vs Gemini: Mana yang Lebih Unggul? Perbandingan Jujur 2026",
     "desc": "Bandingin GPT-6 Astra dari OpenAI dan Gemini 3.1 Pro dari Google — harga, benchmark, fitur konsumen, dan kapan masing-masing lebih masuk akal dipakai.",
@@ -7,7 +67,13 @@
     "url": "/id/gpt-6-vs-gemini-perbandingan.html",
     "date": "2026-10-02",
     "icon": "ai",
-    "keywords": ["GPT-6 vs Gemini", "GPT-6 Astra", "Gemini 3.1 Pro", "perbandingan AI 2026", "ChatGPT vs Gemini harga"]
+    "keywords": [
+      "GPT-6 vs Gemini",
+      "GPT-6 Astra",
+      "Gemini 3.1 Pro",
+      "perbandingan AI 2026",
+      "ChatGPT vs Gemini harga"
+    ]
   },
   {
     "id": "ai-makin-pintar-makin-sering-kabur-2026",
@@ -17,7 +83,14 @@
     "url": "/id/ai-makin-pintar-makin-sering-kabur-2026.html",
     "date": "2026-10-02",
     "icon": "ai",
-    "keywords": ["GPT-6", "Gemini 3.1", "AI agent kabur", "FTC investigasi AI", "Hugging Face hack AI", "keamanan AI agentic"]
+    "keywords": [
+      "GPT-6",
+      "Gemini 3.1",
+      "AI agent kabur",
+      "FTC investigasi AI",
+      "Hugging Face hack AI",
+      "keamanan AI agentic"
+    ]
   },
   {
     "id": "cara-konversi-satuan-berat",
@@ -27,7 +100,12 @@
     "url": "/id/cara-konversi-satuan-berat.html",
     "date": "2026-10-01",
     "icon": "default",
-    "keywords": ["konversi berat", "kg ke gram", "convert weight online", "kalkulator berat"]
+    "keywords": [
+      "konversi berat",
+      "kg ke gram",
+      "convert weight online",
+      "kalkulator berat"
+    ]
   },
   {
     "id": "cara-konversi-satuan-panjang",
@@ -37,7 +115,12 @@
     "url": "/id/cara-konversi-satuan-panjang.html",
     "date": "2026-10-01",
     "icon": "default",
-    "keywords": ["konversi panjang", "meter ke feet", "convert length online", "inci ke cm"]
+    "keywords": [
+      "konversi panjang",
+      "meter ke feet",
+      "convert length online",
+      "inci ke cm"
+    ]
   },
   {
     "id": "cara-konversi-suhu",
@@ -47,7 +130,12 @@
     "url": "/id/cara-konversi-suhu.html",
     "date": "2026-10-01",
     "icon": "default",
-    "keywords": ["konversi suhu", "celsius ke fahrenheit", "convert temperature online", "kalkulator suhu"]
+    "keywords": [
+      "konversi suhu",
+      "celsius ke fahrenheit",
+      "convert temperature online",
+      "kalkulator suhu"
+    ]
   },
   {
     "id": "cara-konversi-satuan-volume",
@@ -57,7 +145,12 @@
     "url": "/id/cara-konversi-satuan-volume.html",
     "date": "2026-10-01",
     "icon": "default",
-    "keywords": ["konversi volume", "liter ke ml", "convert volume online", "cup ke ml"]
+    "keywords": [
+      "konversi volume",
+      "liter ke ml",
+      "convert volume online",
+      "cup ke ml"
+    ]
   },
   {
     "id": "cara-cari-simbol-unicode",
@@ -67,7 +160,12 @@
     "url": "/id/cara-cari-simbol-unicode.html",
     "date": "2026-10-01",
     "icon": "text",
-    "keywords": ["simbol unicode", "cari simbol spesial", "karakter khusus online", "symbol picker"]
+    "keywords": [
+      "simbol unicode",
+      "cari simbol spesial",
+      "karakter khusus online",
+      "symbol picker"
+    ]
   },
   {
     "id": "cara-main-gesture-glitch",
@@ -77,7 +175,11 @@
     "url": "/id/cara-main-gesture-glitch.html",
     "date": "2026-10-01",
     "icon": "default",
-    "keywords": ["gesture glitch", "deteksi tangan kamera", "hand gesture online"]
+    "keywords": [
+      "gesture glitch",
+      "deteksi tangan kamera",
+      "hand gesture online"
+    ]
   },
   {
     "id": "cara-buat-meme",
@@ -87,7 +189,12 @@
     "url": "/id/cara-buat-meme.html",
     "date": "2026-10-01",
     "icon": "image",
-    "keywords": ["meme generator", "cara buat meme", "bikin meme online gratis", "meme maker tanpa watermark"]
+    "keywords": [
+      "meme generator",
+      "cara buat meme",
+      "bikin meme online gratis",
+      "meme maker tanpa watermark"
+    ]
   },
   {
     "id": "cara-gambar-ke-pdf",
@@ -97,7 +204,12 @@
     "url": "/id/cara-gambar-ke-pdf.html",
     "date": "2026-10-01",
     "icon": "pdf",
-    "keywords": ["gambar ke pdf", "image to pdf online", "ubah foto jadi pdf", "gabung foto jadi pdf"]
+    "keywords": [
+      "gambar ke pdf",
+      "image to pdf online",
+      "ubah foto jadi pdf",
+      "gabung foto jadi pdf"
+    ]
   },
   {
     "id": "cara-perbesar-resolusi-gambar",
@@ -107,7 +219,12 @@
     "url": "/id/cara-perbesar-resolusi-gambar.html",
     "date": "2026-10-01",
     "icon": "image",
-    "keywords": ["upscale gambar", "perbesar resolusi foto", "image upscaler online", "perbesar gambar 4x"]
+    "keywords": [
+      "upscale gambar",
+      "perbesar resolusi foto",
+      "image upscaler online",
+      "perbesar gambar 4x"
+    ]
   },
   {
     "id": "cara-tambah-watermark-gambar",
@@ -117,7 +234,12 @@
     "url": "/id/cara-tambah-watermark-gambar.html",
     "date": "2026-10-01",
     "icon": "image",
-    "keywords": ["watermark foto", "tambah watermark gambar online", "watermark logo foto", "proteksi foto watermark"]
+    "keywords": [
+      "watermark foto",
+      "tambah watermark gambar online",
+      "watermark logo foto",
+      "proteksi foto watermark"
+    ]
   },
   {
     "id": "cara-ekstrak-gambar-dari-pdf",
@@ -127,7 +249,11 @@
     "url": "/id/cara-ekstrak-gambar-dari-pdf.html",
     "date": "2026-10-01",
     "icon": "pdf",
-    "keywords": ["ekstrak gambar dari pdf", "ambil gambar pdf", "extract images pdf online"]
+    "keywords": [
+      "ekstrak gambar dari pdf",
+      "ambil gambar pdf",
+      "extract images pdf online"
+    ]
   },
   {
     "id": "cara-beri-nomor-halaman-pdf",
@@ -137,7 +263,12 @@
     "url": "/id/cara-beri-nomor-halaman-pdf.html",
     "date": "2026-10-01",
     "icon": "pdf",
-    "keywords": ["nomor halaman pdf", "page number pdf online", "beri nomor halaman skripsi", "nomor halaman romawi pdf"]
+    "keywords": [
+      "nomor halaman pdf",
+      "page number pdf online",
+      "beri nomor halaman skripsi",
+      "nomor halaman romawi pdf"
+    ]
   },
   {
     "id": "cara-kasih-password-pdf",
@@ -147,7 +278,12 @@
     "url": "/id/cara-kasih-password-pdf.html",
     "date": "2026-10-01",
     "icon": "key",
-    "keywords": ["kasih password pdf", "protect pdf online", "kunci pdf dengan password", "enkripsi pdf"]
+    "keywords": [
+      "kasih password pdf",
+      "protect pdf online",
+      "kunci pdf dengan password",
+      "enkripsi pdf"
+    ]
   },
   {
     "id": "cara-hapus-password-pdf",
@@ -157,7 +293,12 @@
     "url": "/id/cara-hapus-password-pdf.html",
     "date": "2026-10-01",
     "icon": "key",
-    "keywords": ["hapus password pdf", "remove password pdf online", "buka password pdf", "unlock pdf"]
+    "keywords": [
+      "hapus password pdf",
+      "remove password pdf online",
+      "buka password pdf",
+      "unlock pdf"
+    ]
   },
   {
     "id": "cara-putar-susun-ulang-pdf",
@@ -167,7 +308,12 @@
     "url": "/id/cara-putar-susun-ulang-pdf.html",
     "date": "2026-10-01",
     "icon": "pdf",
-    "keywords": ["rotate pdf", "putar halaman pdf", "susun ulang halaman pdf", "hapus halaman pdf online"]
+    "keywords": [
+      "rotate pdf",
+      "putar halaman pdf",
+      "susun ulang halaman pdf",
+      "hapus halaman pdf online"
+    ]
   },
   {
     "id": "cara-konversi-csv-json",
@@ -177,7 +323,12 @@
     "url": "/id/cara-konversi-csv-json.html",
     "date": "2026-10-01",
     "icon": "code",
-    "keywords": ["csv to json", "json to csv", "convert csv online", "csv json converter"]
+    "keywords": [
+      "csv to json",
+      "json to csv",
+      "convert csv online",
+      "csv json converter"
+    ]
   },
   {
     "id": "cara-cek-regex",
@@ -187,7 +338,12 @@
     "url": "/id/cara-cek-regex.html",
     "date": "2026-10-01",
     "icon": "code",
-    "keywords": ["regex tester", "cek regex online", "uji regular expression", "test regex"]
+    "keywords": [
+      "regex tester",
+      "cek regex online",
+      "uji regular expression",
+      "test regex"
+    ]
   },
   {
     "id": "cara-buat-slug-url",
@@ -197,7 +353,12 @@
     "url": "/id/cara-buat-slug-url.html",
     "date": "2026-10-01",
     "icon": "text",
-    "keywords": ["slug generator", "cara buat slug url", "slug seo friendly", "generate slug online"]
+    "keywords": [
+      "slug generator",
+      "cara buat slug url",
+      "slug seo friendly",
+      "generate slug online"
+    ]
   },
   {
     "id": "cara-encode-decode-url",
@@ -207,7 +368,12 @@
     "url": "/id/cara-encode-decode-url.html",
     "date": "2026-10-01",
     "icon": "code",
-    "keywords": ["url encoder", "url decoder online", "encode decode url", "percent encoding"]
+    "keywords": [
+      "url encoder",
+      "url decoder online",
+      "encode decode url",
+      "percent encoding"
+    ]
   },
   {
     "id": "cara-ubah-case-teks",
@@ -217,7 +383,12 @@
     "url": "/id/cara-ubah-case-teks.html",
     "date": "2026-10-01",
     "icon": "text",
-    "keywords": ["text case converter", "ubah huruf besar kecil", "camelcase converter", "snake case online"]
+    "keywords": [
+      "text case converter",
+      "ubah huruf besar kecil",
+      "camelcase converter",
+      "snake case online"
+    ]
   },
   {
     "id": "cara-resize-gambar",
@@ -227,7 +398,12 @@
     "url": "/id/cara-resize-gambar.html",
     "date": "2026-10-01",
     "icon": "image",
-    "keywords": ["resize gambar", "ubah ukuran foto online", "resize image", "perbesar perkecil foto"]
+    "keywords": [
+      "resize gambar",
+      "ubah ukuran foto online",
+      "resize image",
+      "perbesar perkecil foto"
+    ]
   },
   {
     "id": "cara-crop-gambar",
@@ -237,7 +413,12 @@
     "url": "/id/cara-crop-gambar.html",
     "date": "2026-10-01",
     "icon": "image",
-    "keywords": ["crop gambar online", "potong foto", "crop foto rasio", "crop image 1:1"]
+    "keywords": [
+      "crop gambar online",
+      "potong foto",
+      "crop foto rasio",
+      "crop image 1:1"
+    ]
   },
   {
     "id": "cara-hitung-umur",
@@ -247,7 +428,12 @@
     "url": "/id/cara-hitung-umur.html",
     "date": "2026-10-01",
     "icon": "clock",
-    "keywords": ["kalkulator umur", "hitung umur online", "selisih tanggal", "age calculator"]
+    "keywords": [
+      "kalkulator umur",
+      "hitung umur online",
+      "selisih tanggal",
+      "age calculator"
+    ]
   },
   {
     "id": "cara-kompres-pdf",
@@ -257,7 +443,12 @@
     "url": "/id/cara-kompres-pdf.html",
     "date": "2026-10-01",
     "icon": "pdf",
-    "keywords": ["kompres pdf", "perkecil ukuran pdf", "compress pdf online", "cara mengecilkan ukuran pdf"]
+    "keywords": [
+      "kompres pdf",
+      "perkecil ukuran pdf",
+      "compress pdf online",
+      "cara mengecilkan ukuran pdf"
+    ]
   },
   {
     "id": "cara-hapus-background-foto",
@@ -267,7 +458,12 @@
     "url": "/id/cara-hapus-background-foto.html",
     "date": "2026-10-01",
     "icon": "image",
-    "keywords": ["hapus background foto", "remove background online", "background transparan", "hapus bg foto ai"]
+    "keywords": [
+      "hapus background foto",
+      "remove background online",
+      "background transparan",
+      "hapus bg foto ai"
+    ]
   },
   {
     "id": "cara-konversi-pdf-ke-word",
@@ -277,7 +473,12 @@
     "url": "/id/cara-konversi-pdf-ke-word.html",
     "date": "2026-10-01",
     "icon": "pdf",
-    "keywords": ["pdf ke word", "convert pdf ke docx", "pdf to word online", "ubah pdf jadi word"]
+    "keywords": [
+      "pdf ke word",
+      "convert pdf ke docx",
+      "pdf to word online",
+      "ubah pdf jadi word"
+    ]
   },
   {
     "id": "cara-konversi-format-gambar",
@@ -287,7 +488,12 @@
     "url": "/id/cara-konversi-format-gambar.html",
     "date": "2026-10-01",
     "icon": "image",
-    "keywords": ["convert format gambar", "ubah png ke jpg", "jpg ke webp", "konversi gambar online"]
+    "keywords": [
+      "convert format gambar",
+      "ubah png ke jpg",
+      "jpg ke webp",
+      "konversi gambar online"
+    ]
   },
   {
     "id": "cara-buat-uuid",
@@ -297,7 +503,12 @@
     "url": "/id/cara-buat-uuid.html",
     "date": "2026-10-01",
     "icon": "code",
-    "keywords": ["uuid generator", "cara buat uuid", "generate uuid v4 online", "uuid online"]
+    "keywords": [
+      "uuid generator",
+      "cara buat uuid",
+      "generate uuid v4 online",
+      "uuid online"
+    ]
   },
   {
     "id": "cara-encode-decode-base64",
@@ -307,7 +518,12 @@
     "url": "/id/cara-encode-decode-base64.html",
     "date": "2026-10-01",
     "icon": "code",
-    "keywords": ["base64 encoder", "base64 decoder online", "encode decode base64", "cara decode base64"]
+    "keywords": [
+      "base64 encoder",
+      "base64 decoder online",
+      "encode decode base64",
+      "cara decode base64"
+    ]
   },
   {
     "id": "cara-konversi-mata-uang",
@@ -317,7 +533,12 @@
     "url": "/id/cara-konversi-mata-uang.html",
     "date": "2026-10-01",
     "icon": "default",
-    "keywords": ["konversi mata uang", "kurs rupiah ke dolar", "convert currency online", "kurs euro"]
+    "keywords": [
+      "konversi mata uang",
+      "kurs rupiah ke dolar",
+      "convert currency online",
+      "kurs euro"
+    ]
   },
   {
     "id": "cara-ekstrak-teks-dari-gambar",
@@ -327,7 +548,12 @@
     "url": "/id/cara-ekstrak-teks-dari-gambar.html",
     "date": "2026-10-01",
     "icon": "text",
-    "keywords": ["ocr online", "ekstrak teks dari gambar", "image to text", "ambil teks dari foto"]
+    "keywords": [
+      "ocr online",
+      "ekstrak teks dari gambar",
+      "image to text",
+      "ambil teks dari foto"
+    ]
   },
   {
     "id": "cara-buat-qr-code",
@@ -337,7 +563,13 @@
     "url": "/id/cara-buat-qr-code.html",
     "date": "2026-10-01",
     "icon": "qr",
-    "keywords": ["cara buat qr code", "qr code generator", "qr code dengan logo", "buat qr code gratis", "qr code online"]
+    "keywords": [
+      "cara buat qr code",
+      "qr code generator",
+      "qr code dengan logo",
+      "buat qr code gratis",
+      "qr code online"
+    ]
   },
   {
     "id": "cara-buat-password-kuat",
@@ -347,7 +579,13 @@
     "url": "/id/cara-buat-password-kuat.html",
     "date": "2026-10-01",
     "icon": "key",
-    "keywords": ["password generator", "cara buat password kuat", "generate password acak", "password aman", "buat password online"]
+    "keywords": [
+      "password generator",
+      "cara buat password kuat",
+      "generate password acak",
+      "password aman",
+      "buat password online"
+    ]
   },
   {
     "id": "cara-format-json",
@@ -357,7 +595,13 @@
     "url": "/id/cara-format-json.html",
     "date": "2026-10-01",
     "icon": "code",
-    "keywords": ["json formatter", "cara format json", "json validator online", "rapikan json", "json minify"]
+    "keywords": [
+      "json formatter",
+      "cara format json",
+      "json validator online",
+      "rapikan json",
+      "json minify"
+    ]
   },
   {
     "id": "cara-cek-hash-file",
@@ -367,7 +611,13 @@
     "url": "/id/cara-cek-hash-file.html",
     "date": "2026-10-01",
     "icon": "hash",
-    "keywords": ["cek hash file", "md5 checker", "sha256 online", "verifikasi file", "file hash checker"]
+    "keywords": [
+      "cek hash file",
+      "md5 checker",
+      "sha256 online",
+      "verifikasi file",
+      "file hash checker"
+    ]
   },
   {
     "id": "cara-tambah-watermark-pdf",
@@ -377,7 +627,12 @@
     "url": "/id/cara-tambah-watermark-pdf.html",
     "date": "2026-10-01",
     "icon": "pdf",
-    "keywords": ["watermark pdf", "cara tambah watermark pdf", "beri watermark pdf online", "watermark logo pdf"]
+    "keywords": [
+      "watermark pdf",
+      "cara tambah watermark pdf",
+      "beri watermark pdf online",
+      "watermark logo pdf"
+    ]
   },
   {
     "id": "cara-konversi-unix-timestamp",
@@ -387,7 +642,12 @@
     "url": "/id/cara-konversi-unix-timestamp.html",
     "date": "2026-10-01",
     "icon": "clock",
-    "keywords": ["unix timestamp converter", "timestamp ke tanggal", "convert timestamp online", "epoch converter"]
+    "keywords": [
+      "unix timestamp converter",
+      "timestamp ke tanggal",
+      "convert timestamp online",
+      "epoch converter"
+    ]
   },
   {
     "id": "cara-hitung-kata",
@@ -397,7 +657,12 @@
     "url": "/id/cara-hitung-kata.html",
     "date": "2026-10-01",
     "icon": "text",
-    "keywords": ["word counter", "cara hitung kata", "hitung karakter online", "penghitung kata"]
+    "keywords": [
+      "word counter",
+      "cara hitung kata",
+      "hitung karakter online",
+      "penghitung kata"
+    ]
   },
   {
     "id": "cara-ambil-warna-dari-gambar",
@@ -407,7 +672,12 @@
     "url": "/id/cara-ambil-warna-dari-gambar.html",
     "date": "2026-10-01",
     "icon": "image",
-    "keywords": ["color picker gambar", "ambil warna dari gambar", "palet warna dominan", "cek kode warna hex"]
+    "keywords": [
+      "color picker gambar",
+      "ambil warna dari gambar",
+      "palet warna dominan",
+      "cek kode warna hex"
+    ]
   },
   {
     "id": "siesta-riset-pertama-resmi-publish",
@@ -417,7 +687,14 @@
     "url": "/id/siesta-riset-pertama-resmi-publish.html",
     "date": "2026-09-16",
     "icon": "ai",
-    "keywords": ["Siesta", "MEA Team AI", "identity coherence", "model bahasa orchestrator", "riset AI Indonesia", "preprint Zenodo"]
+    "keywords": [
+      "Siesta",
+      "MEA Team AI",
+      "identity coherence",
+      "model bahasa orchestrator",
+      "riset AI Indonesia",
+      "preprint Zenodo"
+    ]
   },
   {
     "id": "cara-ubah-pdf-jadi-gambar",
@@ -427,7 +704,14 @@
     "url": "/id/cara-ubah-pdf-jadi-gambar.html",
     "date": "2026-08-16",
     "icon": "pdf",
-    "keywords": ["pdf ke gambar", "pdf ke jpg", "pdf ke png", "convert pdf", "cara ubah pdf jadi gambar", "extract halaman pdf"]
+    "keywords": [
+      "pdf ke gambar",
+      "pdf ke jpg",
+      "pdf ke png",
+      "convert pdf",
+      "cara ubah pdf jadi gambar",
+      "extract halaman pdf"
+    ]
   },
   {
     "id": "cara-gabungkan-pdf",
@@ -437,7 +721,13 @@
     "url": "/id/cara-gabungkan-pdf.html",
     "date": "2026-08-17",
     "icon": "pdf",
-    "keywords": ["gabungkan pdf", "merge pdf", "satukan pdf", "cara menggabungkan pdf", "combine pdf"]
+    "keywords": [
+      "gabungkan pdf",
+      "merge pdf",
+      "satukan pdf",
+      "cara menggabungkan pdf",
+      "combine pdf"
+    ]
   },
   {
     "id": "cara-kompres-gambar",
@@ -447,7 +737,14 @@
     "url": "/id/cara-kompres-gambar.html",
     "date": "2026-08-17",
     "icon": "image",
-    "keywords": ["kompres gambar", "compress image", "perkecil ukuran gambar", "resize gambar", "kompres foto", "cara mengecilkan ukuran foto"]
+    "keywords": [
+      "kompres gambar",
+      "compress image",
+      "perkecil ukuran gambar",
+      "resize gambar",
+      "kompres foto",
+      "cara mengecilkan ukuran foto"
+    ]
   },
   {
     "id": "cara-memecah-pdf",
@@ -457,7 +754,13 @@
     "url": "/id/cara-memecah-pdf.html",
     "date": "2026-08-17",
     "icon": "pdf",
-    "keywords": ["split pdf", "pecah pdf", "memecah pdf", "cara memisahkan halaman pdf", "potong pdf"]
+    "keywords": [
+      "split pdf",
+      "pecah pdf",
+      "memecah pdf",
+      "cara memisahkan halaman pdf",
+      "potong pdf"
+    ]
   },
   {
     "id": "kenapa-tools-online-pindah-ke-client-side",
@@ -467,6 +770,13 @@
     "url": "/id/kenapa-tools-online-pindah-ke-client-side.html",
     "date": "2026-08-17",
     "icon": "lock",
-    "keywords": ["client-side processing", "privasi online", "tools tanpa upload server", "kenapa client side", "keamanan data pribadi", "pemrosesan di browser"]
+    "keywords": [
+      "client-side processing",
+      "privasi online",
+      "tools tanpa upload server",
+      "kenapa client side",
+      "keamanan data pribadi",
+      "pemrosesan di browser"
+    ]
   }
 ]
