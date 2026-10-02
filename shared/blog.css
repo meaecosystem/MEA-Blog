@@ -784,7 +784,7 @@ ul, ol { list-style: none; }
   line-height: 1.6;
 }
 
-.mea-tool-cta-btn {
+.mea-article-body a.mea-tool-cta-btn {
   align-self: flex-start;
   margin-top: 6px;
   font-size: 13px;
@@ -793,6 +793,7 @@ ul, ol { list-style: none; }
   border-radius: 999px;
   background: var(--mea-accent);
   color: #fff;
+  text-decoration: none;
   transition: background 0.2s ease;
 }
 .mea-article-body a.mea-tool-cta-btn:hover { background: var(--mea-accent-hover); color: #fff; }
