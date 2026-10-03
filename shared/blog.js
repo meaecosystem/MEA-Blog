@@ -134,7 +134,12 @@ function meaIconSvg(key) {
   fetch("/data/articles.json")
     .then(function (res) { return res.json(); })
     .then(function (data) {
-      articles = data;
+      // Blog ini sekarang multi-bahasa (lihat /ja/, /en/, dst). Homepage
+      // masih satu listing default berbahasa Indonesia — artikel bahasa
+      // lain tetap ada di articles.json (field "lang") tapi disaring dari
+      // sini supaya nggak numpuk campur. Entry lama (belum sempat dikasih
+      // field "lang") dianggap "id" lewat fallback di bawah.
+      articles = data.filter(function (a) { return (a.lang || "id") === "id"; });
       renderCategories();
       renderSortOptions();
       renderGrid();
