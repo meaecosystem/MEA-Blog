@@ -1,5 +1,20 @@
 [
   {
+    "id": "siesta-paper-v1-1-rilis",
+    "title": "Siesta Update ke Paper v1.1 di Zenodo",
+    "desc": "Paper riset Siesta naik versi dari v1.0 ke v1.1 di Zenodo. Michi selesai pretraining, dan pengembangan model skala besar (v6) masih terus berjalan.",
+    "category": "riset",
+    "url": "/id/siesta-paper-v1-1-rilis.html",
+    "date": "2026-10-03",
+    "icon": "ai",
+    "keywords": [
+      "Siesta paper v1.1",
+      "Siesta Zenodo",
+      "Siesta DOI",
+      "Michi bahasa"
+    ]
+  },
+  {
     "id": "kenapa-mea-tools-gratis-tanpa-watermark",
     "title": "Kenapa Semua Tools di MEA Tools Gratis dan Tanpa Watermark?",
     "desc": "Kebanyakan tools online 'gratis' punya jebakan: watermark, limit harian, atau paywall tersembunyi. MEA Tools nggak pakai model itu. Ini alasannya.",
