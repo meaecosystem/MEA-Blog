@@ -15,7 +15,7 @@ const BLOG_CATEGORIES = [
   { id: "privasi", label: "Privasi & Keamanan" },
   { id: "riset", label: "Riset & AI" },
   { id: "utilitas", label: "Utilitas" },
-  { id: "tentang", label: "Tentang MEA Tools" },
+  { id: "tentang", label: "Tentang" },
 ];
 
 const BLOG_SORTS = [
