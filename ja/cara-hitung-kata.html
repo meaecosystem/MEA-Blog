@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>文字数・単語数・読了時間を数える方法 | MEA Blog</title>
+<meta name="description" content="テキストの単語数・文字数・文の数・推定読了時間をリアルタイムで数える方法。ブラウザ内で完結し、サーバーへの送信は一切ありません。" />
+<link rel="canonical" href="https://blog.meaecosystem.com/ja/cara-hitung-kata.html" />
+<link rel="alternate" hreflang="id" href="https://blog.meaecosystem.com/id/cara-hitung-kata.html" />
+<link rel="alternate" hreflang="ja" href="https://blog.meaecosystem.com/ja/cara-hitung-kata.html" />
+<link rel="alternate" hreflang="x-default" href="https://blog.meaecosystem.com/id/cara-hitung-kata.html" />
+
+<link rel="icon" type="image/svg+xml" href="https://meaecosystem.com/shared/logo/favicon.svg" />
+
+<link rel="stylesheet" href="https://meaecosystem.com/shared/token/token-color.css" />
+<link rel="stylesheet" href="https://meaecosystem.com/shared/logo/logo-glow.css" />
+<link rel="stylesheet" href="/shared/blog.css" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "文字数・単語数を数える方法",
+  "description": "単語数・文字数・文・段落・推定読了時間を数える方法。ブラウザ内で完結します。",
+  "step": [
+    { "@type": "HowToStep", "name": "Word Counterを開く", "text": "ブラウザで tools.meaecosystem.com/word-counter/ を開く。" },
+    { "@type": "HowToStep", "name": "テキストを貼り付けるか入力", "text": "数えたいテキストを入力欄に貼り付ける。" },
+    { "@type": "HowToStep", "name": "結果を確認", "text": "単語数・文字数・文・段落・推定読了時間がリアルタイムで自動表示される。" }
+  ],
+  "isPartOf": { "@type": "WebSite", "name": "MEA Ecosystem", "url": "https://meaecosystem.com" },
+  "publisher": { "@type": "Organization", "name": "MEA Ecosystem", "url": "https://meaecosystem.com" }
+}
+</script>
+</head>
+<body data-lang-current="ja" data-lang-links='{"id":"/id/cara-hitung-kata.html","ja":"/ja/cara-hitung-kata.html"}'>
+
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="brand-lockup">
+      <img src="https://meaecosystem.com/shared/logo/logo-dark.svg" alt="" class="logo-glow" />
+      <span class="brand">MEA Blog</span>
+    </a>
+    <div id="lang-switcher"></div>
+  </div>
+</header>
+
+<main class="container-article">
+  <nav class="mea-breadcrumb">
+    <a href="/">MEA Blog</a>
+    <span>/</span>
+    <a href="/#text">テキスト</a>
+    <span>/</span>
+    <span aria-current="page">文字数カウントの方法</span>
+  </nav>
+
+  <header class="mea-article-header">
+    <span class="eyebrow">ガイド · テキスト＆コード</span>
+    <h1>文字数・単語数・読了時間を数える方法</h1>
+    <p class="mea-article-lead">文字数制限のあるキャプションを書いているとき、最低文字数が決まっているレポートを書いているとき、あるいは単純に読者がどれくらいの時間で読み終えるか気になるとき。貼り付けるだけですぐ確認する方法を紹介します。</p>
+    <div class="mea-article-meta">
+      <span>2026年10月1日</span>
+      <span>·</span>
+      <span>読了時間 2分</span>
+    </div>
+  </header>
+
+  <article class="mea-article-body">
+    <p>Word Counterはテキストの基本統計——単語数、文字数（スペースあり・なし）、文の数、段落数、推定読了時間まで——を数えます。すべて、テキストを入力または貼り付けるたびに自動で更新されます。</p>
+
+    <div class="mea-tool-cta glass">
+      <span class="eyebrow">今すぐ試す</span>
+      <h3>Word Counter — MEA Tools</h3>
+      <p>単語数・文字数・文・推定読了時間をリアルタイムで数えます。ブラウザ内で直接処理されます。</p>
+      <a href="https://tools.meaecosystem.com/word-counter/" class="mea-tool-cta-btn">Word Counterを開く →</a>
+    </div>
+
+    <h2>テキストを数える手順</h2>
+    <ol>
+      <li><a href="https://tools.meaecosystem.com/word-counter/">tools.meaecosystem.com/word-counter</a> を開く。</li>
+      <li>数えたいテキストを入力欄に直接入力するか貼り付ける。</li>
+      <li>単語数、スペースありの文字数、スペースなしの文字数、文の数、段落数、推定読了時間——すべての統計がすぐに表示され、テキストを編集するたびに更新され続けます。</li>
+    </ol>
+
+    <h2>推定読了時間はどう計算されているのか？</h2>
+    <p>推定読了時間は、成人の平均的な読書速度——一般的に1分あたり200〜250単語程度——をもとに計算されています。この数字は、記事やキャプションに読者がどれくらいの時間をかけるかを見積もるのに役立ちます。正確な数値ではありませんが、おおよその目安としては十分です。</p>
+
+    <h2>スペースあり vs スペースなしの文字数、どちらを使う？</h2>
+    <p>プラットフォームによります。SNSの文字数制限は通常、スペースも1文字としてカウントします。ただし、特定のルールを持つフォーム（例：スペースを除いた文字数制限）に入力する場合もあるため、このツールでは両方の数値を表示し、手動で計算する手間を省けるようにしています。</p>
+
+    <h2>よくある質問</h2>
+    <details class="mea-faq-item">
+      <summary>テキストはサーバーに送信されますか？</summary>
+      <p>いいえ。すべての計算は、入力中にあなたのブラウザ内で直接行われます。</p>
+    </details>
+    <details class="mea-faq-item">
+      <summary>日本語以外の言語でも数えられますか？</summary>
+      <p>できます。単語と文字のカウントは一般的な区切り文字や句読点をもとに動作するため、スペースや句読点で単語を区切るさまざまな言語に対応しています。</p>
+    </details>
+    <details class="mea-faq-item">
+      <summary>段落数が思っていた数と合わないのはなぜ？</summary>
+      <p>段落は、テキストのブロックを区切る空白行をもとにカウントされます。段落と段落の間に空白行がない場合、すべてが1つの段落としてカウントされます。</p>
+    </details>
+
+    <div class="mea-related">
+      <h2>あわせて読みたい</h2>
+      <p><a href="/id/cara-format-json.html">崩れたJSONを整形・検証する方法</a></p>
+      <p><a href="/id/cara-konversi-unix-timestamp.html">Unixタイムスタンプを日付に変換する方法（その逆も）</a></p>
+      <p><a href="/id/kenapa-tools-online-pindah-ke-client-side.html">なぜオンラインツールはクライアントサイド処理へ移行しているのか？</a></p>
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-row footer-row-top">
+      <div class="brand-lockup footer-brand">
+        <svg class="footer-logo-animated" viewBox="0 0 210 180" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect id="footer-box-left" x="24.5" y="30" width="100" height="100" rx="20" fill="none" stroke="var(--mea-accent)" stroke-width="8"/>
+          <path id="footer-box-right" d="M 123.86 45.00 L 173.11 45.17 L 179.35 47.06 L 182.68 49.13 L 185.54 51.81 L 188.98 57.35 L 190.46 63.69 L 190.50 120.00 L 189.82 125.18 L 187.13 131.11 L 183.69 135.04 L 178.15 138.48 L 171.81 139.96 L 112.89 139.83 L 107.85 138.48 L 104.39 136.63 L 101.36 134.14 L 98.18 130.00" fill="none" stroke="var(--mea-accent)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="brand" style="font-size:16px;">MEA Blog</span>
+      </div>
+      <div class="footer-copyright">© 2026 MEA Ecosystem. All rights reserved.</div>
+    </div>
+    <div class="footer-row footer-row-bottom">
+      <nav class="footer-links">
+        <a href="https://legal.meaecosystem.com/meaecosystem/privacy">Privacy</a>
+        <a href="https://legal.meaecosystem.com/meaecosystem/terms">Terms</a>
+        <a href="https://legal.meaecosystem.com/meaecosystem/disclaimer">Disclaimer</a>
+      </nav>
+      <div class="footer-meta">
+        <a href="https://meaecosystem.com" class="brand">MEA Ecosystem</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/shared/lang-switcher.js" defer></script>
+</body>
+</html>

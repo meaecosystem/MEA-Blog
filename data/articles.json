@@ -939,5 +939,50 @@
       "PDFマージ",
       "複数PDF統合"
     ]
+  },
+  {
+    "id": "cara-tambah-watermark-pdf",
+    "lang": "ja",
+    "title": "PDFにテキストまたはロゴの透かしを入れる方法",
+    "desc": "PDFファイルにテキストやロゴの透かしを入れる方法。位置・回転・透明度を調整でき、ブラウザ内で完結、サーバーへのアップロードは不要です。",
+    "category": "convert",
+    "url": "/ja/cara-tambah-watermark-pdf.html",
+    "date": "2026-10-01",
+    "icon": "pdf",
+    "keywords": [
+      "PDF 透かし",
+      "ウォーターマーク PDF",
+      "PDFロゴ追加"
+    ]
+  },
+  {
+    "id": "cara-beri-nomor-halaman-pdf",
+    "lang": "ja",
+    "title": "卒論・レポート用にPDFへページ番号を振る方法",
+    "desc": "PDFにページ番号を追加する方法。ローマ数字と通常の数字を1つの文書内で併用でき、卒論やレポートにぴったり。ブラウザ内で完結します。",
+    "category": "convert",
+    "url": "/ja/cara-beri-nomor-halaman-pdf.html",
+    "date": "2026-10-01",
+    "icon": "pdf",
+    "keywords": [
+      "PDF ページ番号",
+      "卒論 PDF",
+      "ローマ数字 ページ番号"
+    ]
+  },
+  {
+    "id": "cara-hitung-kata",
+    "lang": "ja",
+    "title": "文字数・単語数・読了時間を数える方法",
+    "desc": "テキストの単語数・文字数・文の数・推定読了時間をリアルタイムで数える方法。ブラウザ内で完結し、サーバーへの送信は一切ありません。",
+    "category": "text",
+    "url": "/ja/cara-hitung-kata.html",
+    "date": "2026-10-01",
+    "icon": "text",
+    "keywords": [
+      "文字数カウント",
+      "単語数カウント",
+      "読了時間計算"
+    ]
   }
 ]
