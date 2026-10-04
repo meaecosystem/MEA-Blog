@@ -894,5 +894,50 @@
       "PDF変換 卒論",
       "広告なしオンラインツール"
     ]
+  },
+  {
+    "id": "cara-kompres-pdf",
+    "lang": "ja",
+    "title": "追加アプリ不要でPDFファイルを圧縮する方法",
+    "desc": "PDF内の画像を圧縮してファイルサイズを小さくする方法を解説。ブラウザ内で完結し、サーバーへのアップロードやアプリのインストールは不要です。",
+    "category": "convert",
+    "url": "/ja/cara-kompres-pdf.html",
+    "date": "2026-10-01",
+    "icon": "pdf",
+    "keywords": [
+      "PDF圧縮",
+      "ファイルサイズ縮小",
+      "オンラインPDFツール"
+    ]
+  },
+  {
+    "id": "cara-konversi-pdf-ke-word",
+    "lang": "ja",
+    "title": "PDFをWord（DOCX）に変換する方法（表・画像対応）",
+    "desc": "PDFをWord（.docx）に変換する方法。テキスト・表・画像に対応し、スキャンしたページにはOCRも使えます。すべてブラウザ内で完結します。",
+    "category": "convert",
+    "url": "/ja/cara-konversi-pdf-ke-word.html",
+    "date": "2026-10-01",
+    "icon": "pdf",
+    "keywords": [
+      "PDF Word変換",
+      "PDFからDOCX",
+      "OCR変換"
+    ]
+  },
+  {
+    "id": "cara-gabungkan-pdf",
+    "lang": "ja",
+    "title": "複数のPDFファイルを1つに結合する方法",
+    "desc": "複数のPDFファイルを好きな順番で1つに結合する方法。サーバーへのアップロード不要、画質の劣化もなく、すべてブラウザ内で処理されます。",
+    "category": "convert",
+    "url": "/ja/cara-gabungkan-pdf.html",
+    "date": "2026-08-17",
+    "icon": "pdf",
+    "keywords": [
+      "PDF結合",
+      "PDFマージ",
+      "複数PDF統合"
+    ]
   }
 ]

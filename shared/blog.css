@@ -184,6 +184,105 @@ ul, ol { list-style: none; }
 }
 
 /* ============================================================
+   LANG SWITCHER — dropdown pojok kanan header
+   ============================================================ */
+
+.lang-switcher {
+  position: relative;
+}
+
+.lang-switcher-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--mea-text-secondary);
+  background: transparent;
+  border: 1px solid var(--mea-border-strong);
+  border-radius: 999px;
+  padding: 8px 14px;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+  font-family: inherit;
+}
+
+.lang-switcher-btn:hover,
+.lang-switcher-btn[aria-expanded="true"] {
+  color: var(--mea-text-primary);
+  border-color: var(--mea-accent);
+  background: var(--mea-accent-muted);
+}
+
+.lang-switcher-btn .lang-switcher-caret {
+  width: 10px;
+  height: 10px;
+  transition: transform 0.2s ease;
+}
+
+.lang-switcher-btn[aria-expanded="true"] .lang-switcher-caret {
+  transform: rotate(180deg);
+}
+
+.lang-switcher-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  min-width: 170px;
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  border-radius: 14px;
+  padding: 6px;
+  display: none;
+  flex-direction: column;
+  gap: 2px;
+  z-index: 200;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+}
+
+.lang-switcher-menu.open {
+  display: flex;
+}
+
+.lang-switcher-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 10px;
+  border-radius: 9px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--mea-text-secondary);
+  transition: background 0.15s ease, color 0.15s ease;
+  cursor: pointer;
+}
+
+.lang-switcher-item:hover {
+  background: var(--mea-accent-muted);
+  color: var(--mea-text-primary);
+}
+
+.lang-switcher-item.active {
+  color: var(--mea-accent-text);
+  font-weight: 700;
+}
+
+.lang-switcher-item .lang-switcher-flag {
+  font-size: 15px;
+  line-height: 1;
+}
+
+.lang-switcher-item .lang-switcher-note {
+  margin-left: auto;
+  font-size: 10px;
+  color: var(--mea-text-secondary);
+  opacity: 0.6;
+  font-weight: 500;
+}
+
+/* ============================================================
    HERO — full viewport, static glow (no drift animation), glass card
    ============================================================ */
 

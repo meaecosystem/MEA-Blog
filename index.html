@@ -59,7 +59,7 @@
 }
 </script>
 </head>
-<body>
+<body data-lang-current="id" data-lang-links='{"id":"/"}'>
 
 <!-- ===================== LOADING SCREEN (inline, no external request) ===================== -->
 <div id="mea-loading" class="mea-loading-screen">
@@ -76,6 +76,7 @@
       <img src="https://meaecosystem.com/shared/logo/logo-dark.svg" alt="" class="logo-glow" />
       <span class="brand">MEA Blog</span>
     </a>
+    <div id="lang-switcher"></div>
   </div>
 </header>
 
@@ -169,6 +170,7 @@
 </footer>
 
 <script src="/shared/blog.js"></script>
+<script src="/shared/lang-switcher.js" defer></script>
 <script>
   // Loading screen: draw-in 1x jika cepat, mode "koneksi lambat" jika >=3 detik, fade out
   (function () {
