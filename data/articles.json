@@ -1164,5 +1164,50 @@
       "複数画像 PDF結合",
       "JPG PDF変換"
     ]
+  },
+  {
+    "id": "cara-kompres-gambar",
+    "lang": "ja",
+    "title": "画質を落とさずに画像を圧縮する方法（ブラウザ内で直接）",
+    "desc": "画像ファイル（JPG、PNG、WebP）のサイズを小さくし、複数枚まとめてリサイズする方法。サーバーへのアップロード不要、無料でログインも不要です。",
+    "category": "image",
+    "url": "/ja/cara-kompres-gambar.html",
+    "date": "2026-08-17",
+    "icon": "image",
+    "keywords": [
+      "画像圧縮",
+      "写真サイズ縮小",
+      "JPG圧縮"
+    ]
+  },
+  {
+    "id": "cara-resize-gambar",
+    "lang": "ja",
+    "title": "画像のサイズ（寸法）を歪みなく変更する方法",
+    "desc": "縦横比を固定する・しないを選びながら画像の寸法を変更する方法。ブラウザ内で直接処理、サーバーへのアップロードは不要です。",
+    "category": "image",
+    "url": "/ja/cara-resize-gambar.html",
+    "date": "2026-10-01",
+    "icon": "image",
+    "keywords": [
+      "画像リサイズ",
+      "画像サイズ変更",
+      "縦横比固定"
+    ]
+  },
+  {
+    "id": "cara-crop-gambar",
+    "lang": "ja",
+    "title": "適切な比率で画像をトリミング（Crop）する方法",
+    "desc": "必要に応じて画像の一部を切り取る方法。自由な比率でも、1:1、4:3、16:9などの固定比率でも対応。ブラウザ内で直接処理されます。",
+    "category": "image",
+    "url": "/ja/cara-crop-gambar.html",
+    "date": "2026-10-01",
+    "icon": "image",
+    "keywords": [
+      "画像トリミング",
+      "画像クロップ",
+      "写真切り取り"
+    ]
   }
 ]

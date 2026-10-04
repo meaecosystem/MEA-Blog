@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>画像のサイズ（寸法）を歪みなく変更する方法 | MEA Blog</title>
+<meta name="description" content="縦横比を固定する・しないを選びながら画像の寸法を変更する方法。ブラウザ内で直接処理、サーバーへのアップロードは不要です。" />
+<link rel="canonical" href="https://blog.meaecosystem.com/ja/cara-resize-gambar.html" />
+<link rel="alternate" hreflang="id" href="https://blog.meaecosystem.com/id/cara-resize-gambar.html" />
+<link rel="alternate" hreflang="ja" href="https://blog.meaecosystem.com/ja/cara-resize-gambar.html" />
+<link rel="alternate" hreflang="x-default" href="https://blog.meaecosystem.com/id/cara-resize-gambar.html" />
+
+<link rel="icon" type="image/svg+xml" href="https://meaecosystem.com/shared/logo/favicon.svg" />
+
+<link rel="stylesheet" href="https://meaecosystem.com/shared/token/token-color.css" />
+<link rel="stylesheet" href="https://meaecosystem.com/shared/logo/logo-glow.css" />
+<link rel="stylesheet" href="/shared/blog.css" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "画像の寸法を変更する方法",
+  "description": "縦横比を固定する・しないを選んで画像をリサイズする方法。ブラウザ内で完結します。",
+  "step": [
+    { "@type": "HowToStep", "name": "Resize Gambarを開く", "text": "ブラウザで tools.meaecosystem.com/image-resizer/ を開く。" },
+    { "@type": "HowToStep", "name": "画像をアップロード", "text": "サイズを変更したい画像を選ぶ。" },
+    { "@type": "HowToStep", "name": "新しい寸法を設定", "text": "新しい幅と高さを入力するか、パーセンテージによるクイック設定を使う。" },
+    { "@type": "HowToStep", "name": "結果をダウンロード", "text": "リサイズをクリックし、結果の画像をダウンロード。" }
+  ],
+  "isPartOf": { "@type": "WebSite", "name": "MEA Ecosystem", "url": "https://meaecosystem.com" },
+  "publisher": { "@type": "Organization", "name": "MEA Ecosystem", "url": "https://meaecosystem.com" }
+}
+</script>
+</head>
+<body data-lang-current="ja" data-lang-links='{"id":"/id/cara-resize-gambar.html","ja":"/ja/cara-resize-gambar.html"}'>
+
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="brand-lockup">
+      <img src="https://meaecosystem.com/shared/logo/logo-dark.svg" alt="" class="logo-glow" />
+      <span class="brand">MEA Blog</span>
+    </a>
+    <div id="lang-switcher"></div>
+  </div>
+</header>
+
+<main class="container-article">
+  <nav class="mea-breadcrumb">
+    <a href="/">MEA Blog</a>
+    <span>/</span>
+    <a href="/#image">画像</a>
+    <span>/</span>
+    <span aria-current="page">画像リサイズの方法</span>
+  </nav>
+
+  <header class="mea-article-header">
+    <span class="eyebrow">ガイド · 画像</span>
+    <h1>画像のサイズ（寸法）を歪みなく変更する方法</h1>
+    <p class="mea-article-lead">特定のピクセルサイズのプロフィール写真が必要なとき、または画像が大きすぎるので寸法を小さくしたいとき。画像が引き伸ばされたり歪んだりしないよう縦横比を固定しながらサイズを調整する方法を紹介します。</p>
+    <div class="mea-article-meta">
+      <span>2026年10月1日</span>
+      <span>·</span>
+      <span>読了時間 2分</span>
+    </div>
+  </header>
+
+  <article class="mea-article-body">
+    <p>Resize Gambarは画像の寸法（幅と高さ、ピクセル単位）を変更します。縦横比を固定して比率を保つオプションも、あえて形を変えたい場合に自由に調整できるオプションもあります。</p>
+
+    <div class="mea-tool-cta glass">
+      <span class="eyebrow">今すぐ試す</span>
+      <h3>Resize Gambar — MEA Tools</h3>
+      <p>縦横比を固定する・しないを選びながら画像のサイズを変更、ブラウザ内で直接処理。</p>
+      <a href="https://tools.meaecosystem.com/image-resizer/" class="mea-tool-cta-btn">Resize Gambarを開く →</a>
+    </div>
+
+    <h2>画像をリサイズする手順</h2>
+    <ol>
+      <li><a href="https://tools.meaecosystem.com/image-resizer/">tools.meaecosystem.com/image-resizer</a> を開く。</li>
+      <li>サイズを変更したい画像をアップロードする。</li>
+      <li>ピクセル単位で新しい幅と高さを入力するか、「クイックサイズ」オプションを使って元のサイズに対するパーセンテージ（例：50%）で変更する。</li>
+      <li>画像の比率を保ちたい場合は、縦横比の固定が有効になっていることを確認する——片方の数値を変えるともう片方も自動的に調整される。</li>
+      <li>出力がJPEGやWebPになる場合は、品質レベルも調整する。</li>
+      <li>結果の画像をダウンロードする。</li>
+    </ol>
+
+    <h2>画像が歪んだり引き伸ばされたりするのはなぜ？</h2>
+    <p>縦横比の固定がオフになっていて、元の比率を考慮せずに幅や高さを個別に変更した場合にこれが起こります。形を変えずに画像を小さく・大きくしたいだけの場合は、縦横比の固定を必ず有効にしておきましょう。</p>
+
+    <h2>あえて縦横比の固定をオフにするのはどんなとき？</h2>
+    <p>時には、元の画像の比率とは異なる正確な寸法が必要になることがあります——例えば特定のプラットフォームが特定の比率のバナーサイズを求めている場合などです。そうしたケースでは、縦横比の固定をオフにして必要な寸法を手動で入力します。元の画像とは少し比率が異なって見えることもありますが、それで問題ありません。</p>
+
+    <h2>よくある質問</h2>
+    <details class="mea-faq-item">
+      <summary>画像はサーバーにアップロードされますか？</summary>
+      <p>いいえ。リサイズ処理はあなたのブラウザ内で直接行われます。</p>
+    </details>
+    <details class="mea-faq-item">
+      <summary>画像を拡大すると画質は落ちますか？</summary>
+      <p>通常はい、落ちます。元のサイズより大きく拡大すると、ソフトウェアが追加のピクセルを「推測」する必要があり、その結果元の画像よりぼやけたり、鮮明さが失われたりすることがよくあります。</p>
+    </details>
+    <details class="mea-faq-item">
+      <summary>対応している形式は何ですか？</summary>
+      <p>PNG、JPG、WebP、その他あなたのブラウザが対応している画像形式です。</p>
+    </details>
+
+    <div class="mea-related">
+      <h2>あわせて読みたい</h2>
+      <p><a href="/ja/cara-crop-gambar.html">適切な比率で画像をトリミング（Crop）する方法</a></p>
+      <p><a href="/ja/cara-kompres-gambar.html">画質を落とさずに画像を圧縮する方法</a></p>
+      <p><a href="/id/cara-konversi-format-gambar.html">画像の形式をPNG、JPG、WebPに変換する方法</a></p>
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-row footer-row-top">
+      <div class="brand-lockup footer-brand">
+        <svg class="footer-logo-animated" viewBox="0 0 210 180" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect id="footer-box-left" x="24.5" y="30" width="100" height="100" rx="20" fill="none" stroke="var(--mea-accent)" stroke-width="8"/>
+          <path id="footer-box-right" d="M 123.86 45.00 L 173.11 45.17 L 179.35 47.06 L 182.68 49.13 L 185.54 51.81 L 188.98 57.35 L 190.46 63.69 L 190.50 120.00 L 189.82 125.18 L 187.13 131.11 L 183.69 135.04 L 178.15 138.48 L 171.81 139.96 L 112.89 139.83 L 107.85 138.48 L 104.39 136.63 L 101.36 134.14 L 98.18 130.00" fill="none" stroke="var(--mea-accent)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="brand" style="font-size:16px;">MEA Blog</span>
+      </div>
+      <div class="footer-copyright">© 2026 MEA Ecosystem. All rights reserved.</div>
+    </div>
+    <div class="footer-row footer-row-bottom">
+      <nav class="footer-links">
+        <a href="https://legal.meaecosystem.com/meaecosystem/privacy">Privacy</a>
+        <a href="https://legal.meaecosystem.com/meaecosystem/terms">Terms</a>
+        <a href="https://legal.meaecosystem.com/meaecosystem/disclaimer">Disclaimer</a>
+      </nav>
+      <div class="footer-meta">
+        <a href="https://meaecosystem.com" class="brand">MEA Ecosystem</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/shared/lang-switcher.js" defer></script>
+</body>
+</html>

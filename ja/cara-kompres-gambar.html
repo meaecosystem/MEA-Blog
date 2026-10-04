@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>画質を落とさずに画像を圧縮する方法（ブラウザ内で直接） | MEA Blog</title>
+<meta name="description" content="画像ファイル（JPG、PNG、WebP）のサイズを小さくし、複数枚まとめてリサイズする方法。サーバーへのアップロード不要、無料でログインも不要です。" />
+<link rel="canonical" href="https://blog.meaecosystem.com/ja/cara-kompres-gambar.html" />
+<link rel="alternate" hreflang="id" href="https://blog.meaecosystem.com/id/cara-kompres-gambar.html" />
+<link rel="alternate" hreflang="ja" href="https://blog.meaecosystem.com/ja/cara-kompres-gambar.html" />
+<link rel="alternate" hreflang="x-default" href="https://blog.meaecosystem.com/id/cara-kompres-gambar.html" />
+
+<link rel="icon" type="image/svg+xml" href="https://meaecosystem.com/shared/logo/favicon.svg" />
+
+<link rel="stylesheet" href="https://meaecosystem.com/shared/token/token-color.css" />
+<link rel="stylesheet" href="https://meaecosystem.com/shared/logo/logo-glow.css" />
+<link rel="stylesheet" href="/shared/blog.css" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "画質を落とさずに画像を圧縮する方法",
+  "description": "画像のファイルサイズを小さくし、複数枚を一度にリサイズする方法。サーバーへのアップロード不要。",
+  "step": [
+    { "@type": "HowToStep", "name": "Image Compressorを開く", "text": "ブラウザで tools.meaecosystem.com/image-compressor/ を開く。" },
+    { "@type": "HowToStep", "name": "画像をアップロード", "text": "1枚または複数の画像を選ぶか、ドロップエリアにドラッグ。" },
+    { "@type": "HowToStep", "name": "サイズを調整", "text": "新しい幅と高さを指定。縦横比を固定すれば画像が歪まない。" },
+    { "@type": "HowToStep", "name": "品質と形式を選択", "text": "品質レベル（高/中/低）と出力形式（JPEG、WebP、PNG）を選ぶ。" },
+    { "@type": "HowToStep", "name": "圧縮してダウンロード", "text": "画像を圧縮をクリックし、前後の比較を確認してダウンロード。" }
+  ],
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "MEA Ecosystem",
+    "url": "https://meaecosystem.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "MEA Ecosystem",
+    "url": "https://meaecosystem.com"
+  }
+}
+</script>
+</head>
+<body data-lang-current="ja" data-lang-links='{"id":"/id/cara-kompres-gambar.html","ja":"/ja/cara-kompres-gambar.html"}'>
+
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="brand-lockup">
+      <img src="https://meaecosystem.com/shared/logo/logo-dark.svg" alt="" class="logo-glow" />
+      <span class="brand">MEA Blog</span>
+    </a>
+    <div id="lang-switcher"></div>
+  </div>
+</header>
+
+<main class="container-article">
+  <nav class="mea-breadcrumb">
+    <a href="/">MEA Blog</a>
+    <span>/</span>
+    <a href="/#image">画像</a>
+    <span>/</span>
+    <span aria-current="page">画像圧縮の方法</span>
+  </nav>
+
+  <header class="mea-article-header">
+    <span class="eyebrow">ガイド · 画像最適化</span>
+    <h1>画質を落とさずに画像を圧縮する方法（ブラウザ内で直接）</h1>
+    <p class="mea-article-lead">最近のスマートフォンの写真は1枚5〜10MBに達することも珍しくありません——ウェブサイトへのアップロードやメール送信、オンラインフォームへの添付には大きすぎます。画質が崩れたりぼやけたりせずにサイズを小さくする方法を紹介します。</p>
+    <div class="mea-article-meta">
+      <span>2026年8月17日</span>
+      <span>·</span>
+      <span>読了時間 5分</span>
+    </div>
+  </header>
+
+  <article class="mea-article-body">
+    <p>「画像を圧縮する」というと「ファイルを小さくするために画質を犠牲にする」と誤解されがちです。しかし正しく行えば、特に画面表示用（大きく印刷しない）であれば、肉眼ではほとんど分からない程度の画質低下でファイルサイズを大幅に削減できます。</p>
+
+    <p>MEA Toolsの他のツールと同様、この画像圧縮処理にもサーバーは不要です。現代のブラウザにはすでに標準機能（Canvas API）が備わっており、画像の読み込み、サイズ変更、選択した品質・形式での再保存を——すべてあなた自身の端末上で——行えます。</p>
+
+    <div class="mea-tool-cta glass">
+      <span class="eyebrow">今すぐ試す</span>
+      <h3>Image Compressor — MEA Tools</h3>
+      <p>複数の画像を一度に圧縮・リサイズ、ブラウザ内で直接処理。品質と出力形式を自分で選択可能、サーバーへのアップロードなし、ログイン不要。</p>
+      <a href="https://tools.meaecosystem.com/image-compressor/" class="mea-tool-cta-btn">Image Compressorを開く →</a>
+    </div>
+
+    <h2>画像を圧縮する手順</h2>
+    <ol>
+      <li><a href="https://tools.meaecosystem.com/image-compressor/">tools.meaecosystem.com/image-compressor</a> を開く——登録やログインは不要。</li>
+      <li>端末から1枚または複数の画像を選ぶか、まとめてアップロードエリアにドラッグする。</li>
+      <li>圧縮だけでなくリサイズもしたい場合はサイズ（幅×高さ）を調整する。片方の数値を変更したときに比率が崩れないよう「縦横比を固定」を有効にする。</li>
+      <li>品質レベル——高・中・低——を必要に応じて選ぶ。</li>
+      <li>出力形式を選ぶ：JPEG、WebP、またはPNG。</li>
+      <li>「画像を圧縮」をクリックする。結果は元の画像と並べて表示され、ファイルサイズの比較も確認してからダウンロードできる。</li>
+    </ol>
+
+    <h2>どの形式を選ぶべき？</h2>
+    <p>一般的な写真（風景、商品、人物）の場合、高または中品質のJPEGで通常は十分です——サイズが小さく、見た目も良好です。WebPは同等の品質でさらに小さいファイルサイズを実現できますが、一部の古いプラットフォームではまだうまく対応していない可能性があります。透明度が必要な画像（ロゴ、アイコン）や、ぼやけてはいけないテキスト・くっきりした線を含む画像にはPNGがおすすめです。</p>
+
+    <h2>圧縮だけでなくリサイズもすべきなのはどんなとき？</h2>
+    <p>元の画像サイズが実際の用途よりもはるかに大きい場合——例えば4000×3000ピクセルの写真をウェブページ上では800×600でしか表示しないような場合——先に適切なサイズへリサイズすることで、圧縮品質を下げるだけよりもはるかに大きなファイルサイズの削減が得られます。リサイズと中品質の圧縮を組み合わせるのが、通常最も効率的な方法です。</p>
+
+    <h2>よくある質問</h2>
+    <details class="mea-faq-item">
+      <summary>画像はサーバーにアップロードされますか？</summary>
+      <p>いいえ。圧縮・リサイズのすべての処理は、ブラウザ標準のCanvas APIを使ってあなたのブラウザ内で直接行われます。</p>
+    </details>
+    <details class="mea-faq-item">
+      <summary>対応している形式は何ですか？</summary>
+      <p>ブラウザが読み込める形式の画像であればアップロード可能で、出力はJPEG、WebP、PNGから選べます。</p>
+    </details>
+    <details class="mea-faq-item">
+      <summary>ファイルサイズに制限はありますか？</summary>
+      <p>サービス側の制限はありません。すべてあなた自身の端末内で処理されるためです。制限はブラウザと端末の性能次第です。</p>
+    </details>
+    <details class="mea-faq-item">
+      <summary>複数の画像を一度に圧縮できますか？</summary>
+      <p>できます。複数の画像を一度にアップロードし、品質とサイズを設定すれば、結果は自動的に1つのZIPファイルとしてダウンロードされます。</p>
+    </details>
+
+    <div class="mea-related">
+      <h2>あわせて読みたい</h2>
+      <p><a href="/ja/cara-ubah-pdf-jadi-gambar.html">PDFを画像（JPG/PNG）に変換する方法</a></p>
+      <p><a href="/ja/cara-gabungkan-pdf.html">複数のPDFファイルを1つに結合する方法</a></p>
+      <p><a href="/ja/cara-memecah-pdf.html">1つのPDFを複数のファイルに分割する方法</a></p>
+      <p><a href="/ja/kenapa-tools-online-pindah-ke-client-side.html">なぜオンラインツールはクライアントサイド処理へ移行しているのか？</a></p>
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-row footer-row-top">
+      <div class="brand-lockup footer-brand">
+        <svg class="footer-logo-animated" viewBox="0 0 210 180" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect id="footer-box-left" x="24.5" y="30" width="100" height="100" rx="20" fill="none" stroke="var(--mea-accent)" stroke-width="8"/>
+          <path id="footer-box-right" d="M 123.86 45.00 L 173.11 45.17 L 179.35 47.06 L 182.68 49.13 L 185.54 51.81 L 188.98 57.35 L 190.46 63.69 L 190.50 120.00 L 189.82 125.18 L 187.13 131.11 L 183.69 135.04 L 178.15 138.48 L 171.81 139.96 L 112.89 139.83 L 107.85 138.48 L 104.39 136.63 L 101.36 134.14 L 98.18 130.00" fill="none" stroke="var(--mea-accent)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="brand" style="font-size:16px;">MEA Blog</span>
+      </div>
+      <div class="footer-copyright">© 2026 MEA Ecosystem. All rights reserved.</div>
+    </div>
+    <div class="footer-row footer-row-bottom">
+      <nav class="footer-links">
+        <a href="https://legal.meaecosystem.com/meaecosystem/privacy">Privacy</a>
+        <a href="https://legal.meaecosystem.com/meaecosystem/terms">Terms</a>
+        <a href="https://legal.meaecosystem.com/meaecosystem/disclaimer">Disclaimer</a>
+      </nav>
+      <div class="footer-meta">
+        <a href="https://meaecosystem.com" class="brand">MEA Ecosystem</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/shared/lang-switcher.js" defer></script>
+</body>
+</html>
