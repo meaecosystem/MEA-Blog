@@ -1119,5 +1119,50 @@
       "PDF並べ替え",
       "PDFページ削除"
     ]
+  },
+  {
+    "id": "cara-kasih-password-pdf",
+    "lang": "ja",
+    "title": "PDFファイルにパスワードを設定して誰でも開けないようにする方法",
+    "desc": "PDFファイルをパスワードで保護する方法。AES-128またはAES-256の暗号化レベルを選択でき、ブラウザ内で直接処理、サーバーへのアップロードは不要です。",
+    "category": "convert",
+    "url": "/ja/cara-kasih-password-pdf.html",
+    "date": "2026-10-01",
+    "icon": "key",
+    "keywords": [
+      "PDFパスワード設定",
+      "PDF暗号化",
+      "PDF保護"
+    ]
+  },
+  {
+    "id": "cara-hapus-password-pdf",
+    "lang": "ja",
+    "title": "パスワードを知っているPDFファイルからパスワードを削除する方法",
+    "desc": "すでにパスワードを知っているPDFファイルからパスワードを削除する方法。ブラウザ内で直接処理、サーバーへのアップロードは不要です。",
+    "category": "convert",
+    "url": "/ja/cara-hapus-password-pdf.html",
+    "date": "2026-10-01",
+    "icon": "key",
+    "keywords": [
+      "PDFパスワード削除",
+      "PDFロック解除",
+      "PDF保護解除"
+    ]
+  },
+  {
+    "id": "cara-gambar-ke-pdf",
+    "lang": "ja",
+    "title": "複数の画像を1つのPDFファイルにまとめる方法",
+    "desc": "複数の画像を1つのPDFファイルに結合する方法。順番とページサイズを調整でき、ブラウザ内で直接処理、サーバーへのアップロードは不要です。",
+    "category": "convert",
+    "url": "/ja/cara-gambar-ke-pdf.html",
+    "date": "2026-10-01",
+    "icon": "pdf",
+    "keywords": [
+      "画像 PDF変換",
+      "複数画像 PDF結合",
+      "JPG PDF変換"
+    ]
   }
 ]
