@@ -984,5 +984,95 @@
       "単語数カウント",
       "読了時間計算"
     ]
+  },
+  {
+    "id": "cara-buat-qr-code",
+    "lang": "ja",
+    "title": "ロゴ入りQRコードを自分で作る方法（無料・透かしなし）",
+    "desc": "ロゴと好きな色を入れたオリジナルQRコードを作る方法。ブラウザ内で直接作成でき、サーバーへのアップロードや邪魔な透かしは一切ありません。",
+    "category": "utilitas",
+    "url": "/ja/cara-buat-qr-code.html",
+    "date": "2026-10-01",
+    "icon": "qr",
+    "keywords": [
+      "QRコード作成",
+      "ロゴ付きQRコード",
+      "無料QRコードジェネレーター"
+    ]
+  },
+  {
+    "id": "cara-cek-hash-file",
+    "lang": "ja",
+    "title": "ファイルのハッシュ値（MD5、SHA-256）を確認して真正性を検証する方法",
+    "desc": "ファイルやテキストのMD5・SHA-1・SHA-256ハッシュ値を計算し比較する方法。ファイルが破損・改ざんされていないか確認でき、ブラウザ内で完結します。",
+    "category": "utilitas",
+    "url": "/ja/cara-cek-hash-file.html",
+    "date": "2026-10-01",
+    "icon": "hash",
+    "keywords": [
+      "ハッシュ値確認",
+      "MD5 SHA-256",
+      "ファイル検証"
+    ]
+  },
+  {
+    "id": "cara-format-json",
+    "lang": "ja",
+    "title": "崩れたJSONを整形・検証する方法",
+    "desc": "崩れたJSONを読みやすく整形し、1行に圧縮し、構文エラーの位置を見つける方法。すべてブラウザ内で完結します。",
+    "category": "text",
+    "url": "/ja/cara-format-json.html",
+    "date": "2026-10-01",
+    "icon": "code",
+    "keywords": [
+      "JSON整形",
+      "JSON検証",
+      "JSONフォーマッター"
+    ]
+  },
+  {
+    "id": "cara-konversi-csv-json",
+    "lang": "ja",
+    "title": "CSVをJSONに、またはその逆に変換する方法",
+    "desc": "CSVをJSONに、またはJSONをCSVに変換する方法。大容量ファイルでも処理が固まらず、ブラウザ内で直接完結、サーバーへのアップロードは不要です。",
+    "category": "text",
+    "url": "/ja/cara-konversi-csv-json.html",
+    "date": "2026-10-01",
+    "icon": "code",
+    "keywords": [
+      "CSV JSON変換",
+      "データ変換ツール",
+      "CSVコンバーター"
+    ]
+  },
+  {
+    "id": "kenapa-mea-tools-gratis-tanpa-watermark",
+    "lang": "ja",
+    "title": "なぜMEA Toolsのすべてのツールは無料で透かしなしなのか？",
+    "desc": "多くの無料オンラインツールには透かし・1日の利用制限・隠れた有料化への誘導といった罠があります。MEA Toolsはそのモデルを採用していません。その理由を解説します。",
+    "category": "tentang",
+    "url": "/ja/kenapa-mea-tools-gratis-tanpa-watermark.html",
+    "date": "2026-10-02",
+    "icon": "gift",
+    "keywords": [
+      "MEA Tools 無料",
+      "透かしなしツール",
+      "オンラインツール 無料"
+    ]
+  },
+  {
+    "id": "kenapa-tools-online-pindah-ke-client-side",
+    "lang": "ja",
+    "title": "なぜオンラインツールはクライアントサイド処理へ移行しているのか？",
+    "desc": "クライアントサイド処理とは何か、なぜこのトレンドが広がっているのか、そしてファイルを本当にサーバーへ送信しないツールをどう見分けるかを分かりやすく解説。",
+    "category": "privasi",
+    "url": "/ja/kenapa-tools-online-pindah-ke-client-side.html",
+    "date": "2026-08-17",
+    "icon": "lock",
+    "keywords": [
+      "クライアントサイド処理",
+      "プライバシー オンラインツール",
+      "ブラウザ内処理"
+    ]
   }
 ]

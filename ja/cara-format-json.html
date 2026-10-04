@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>崩れたJSONを整形・検証する方法 | MEA Blog</title>
+<meta name="description" content="崩れたJSONを読みやすく整形し、1行に圧縮し、構文エラーの位置を見つける方法。すべてブラウザ内で完結します。" />
+<link rel="canonical" href="https://blog.meaecosystem.com/ja/cara-format-json.html" />
+<link rel="alternate" hreflang="id" href="https://blog.meaecosystem.com/id/cara-format-json.html" />
+<link rel="alternate" hreflang="ja" href="https://blog.meaecosystem.com/ja/cara-format-json.html" />
+<link rel="alternate" hreflang="x-default" href="https://blog.meaecosystem.com/id/cara-format-json.html" />
+
+<link rel="icon" type="image/svg+xml" href="https://meaecosystem.com/shared/logo/favicon.svg" />
+
+<link rel="stylesheet" href="https://meaecosystem.com/shared/token/token-color.css" />
+<link rel="stylesheet" href="https://meaecosystem.com/shared/logo/logo-glow.css" />
+<link rel="stylesheet" href="/shared/blog.css" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "崩れたJSONを整形・検証する方法",
+  "description": "JSONの整形、圧縮、検証をブラウザ内で行う方法。",
+  "step": [
+    { "@type": "HowToStep", "name": "JSON Formatterを開く", "text": "ブラウザで tools.meaecosystem.com/json-formatter/ を開く。" },
+    { "@type": "HowToStep", "name": "JSONを貼り付け", "text": "整形したいJSONをコピーして入力欄に貼り付ける。" },
+    { "@type": "HowToStep", "name": "整形または圧縮", "text": "「整形」をクリックして読みやすい形式にするか、「圧縮」をクリックして1行にする。" },
+    { "@type": "HowToStep", "name": "結果をコピー", "text": "ワンクリックで結果をコピー。" }
+  ],
+  "isPartOf": { "@type": "WebSite", "name": "MEA Ecosystem", "url": "https://meaecosystem.com" },
+  "publisher": { "@type": "Organization", "name": "MEA Ecosystem", "url": "https://meaecosystem.com" }
+}
+</script>
+</head>
+<body data-lang-current="ja" data-lang-links='{"id":"/id/cara-format-json.html","ja":"/ja/cara-format-json.html"}'>
+
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="brand-lockup">
+      <img src="https://meaecosystem.com/shared/logo/logo-dark.svg" alt="" class="logo-glow" />
+      <span class="brand">MEA Blog</span>
+    </a>
+    <div id="lang-switcher"></div>
+  </div>
+</header>
+
+<main class="container-article">
+  <nav class="mea-breadcrumb">
+    <a href="/">MEA Blog</a>
+    <span>/</span>
+    <a href="/#text">テキスト</a>
+    <span>/</span>
+    <span aria-current="page">JSON整形の方法</span>
+  </nav>
+
+  <header class="mea-article-header">
+    <span class="eyebrow">ガイド · テキスト＆コード</span>
+    <h1>崩れたJSONを整形・検証する方法</h1>
+    <p class="mea-article-lead">APIレスポンスやログから得られるJSONは、ほとんど目で追えないほど長い1行で返ってくることがよくあります。構文エラーの原因となるタイプミスがないかチェックしながら、構造的に整形する方法を紹介します。</p>
+    <div class="mea-article-meta">
+      <span>2026年10月1日</span>
+      <span>·</span>
+      <span>読了時間 3分</span>
+    </div>
+  </header>
+
+  <article class="mea-article-body">
+    <p>技術的に有効なJSONでも、視覚的には読みにくいことがあります——特にAPIから圧縮された形で返ってきたり、コンソールからコピーしたりした場合はなおさらです。JSON Formatterは、適切なインデントで構造を整えるとともに、構文が壊れている場合はどの行にエラーがあるかを教えてくれます。</p>
+
+    <div class="mea-tool-cta glass">
+      <span class="eyebrow">今すぐ試す</span>
+      <h3>JSON Formatter & Validator — MEA Tools</h3>
+      <p>JSONの整形・圧縮・検証をブラウザ内で直接行います。サーバーへのアップロードなし。</p>
+      <a href="https://tools.meaecosystem.com/json-formatter/" class="mea-tool-cta-btn">JSON Formatterを開く →</a>
+    </div>
+
+    <h2>JSONを整形する手順</h2>
+    <ol>
+      <li><a href="https://tools.meaecosystem.com/json-formatter/">tools.meaecosystem.com/json-formatter</a> を開く。</li>
+      <li>整形したいJSONをコピーして入力欄に貼り付ける。</li>
+      <li>「整形（Format）」をクリックすると、読みやすいインデント付きの構造に変換される。</li>
+      <li>逆にできるだけコンパクトな形が必要な場合（設定ファイルに貼り付けるときなど）は、「圧縮（Minify）」をクリックして1行にまとめる。</li>
+      <li>コピーボタンで結果をコピーする。</li>
+    </ol>
+
+    <h2>JSONがエラーの場合、問題箇所はどこ？</h2>
+    <p>JSONのパースに失敗する最も一般的な原因は、配列やオブジェクトの末尾に残った余分なカンマ、一貫していない引用符の使用（シングルクォートではなくダブルクォートが必須）、括弧の不一致などです。貼り付けた入力が無効な場合、このツールがエラーの位置を教えてくれるため、1つずつ手動で探す必要がありません。</p>
+
+    <h2>整形と圧縮、どちらをいつ使う？</h2>
+    <p>整形（Format）は、データを読んだりデバッグしたりするときに向いています——ネストされた構造がはっきり見えるようになります。圧縮（Minify）は、そのJSONをファイルサイズが重視される場所（本番環境の設定ファイルやAPIペイロードなど）に貼り付ける場合に向いています。</p>
+
+    <h2>よくある質問</h2>
+    <details class="mea-faq-item">
+      <summary>貼り付けたJSONはサーバーに送信されますか？</summary>
+      <p>いいえ。パース、整形、検証のすべての処理はあなたのブラウザ内で直接行われます。</p>
+    </details>
+    <details class="mea-faq-item">
+      <summary>処理できるJSONのサイズに制限はありますか？</summary>
+      <p>サービス側の制限はありません。非常に大きなJSONの場合、制限はブラウザと端末の性能次第です。</p>
+    </details>
+    <details class="mea-faq-item">
+      <summary>「有効なJSON」と「見た目は正しそうなJSON」の違いは？</summary>
+      <p>有効なJSONは厳格な構文規則に従っています——ダブルクォートが必須で、末尾の余分なカンマは許されません。このツールはその基準に沿って検証するため、「見た目は正しそう」でも実際には誤っている部分があれば検出されます。</p>
+    </details>
+
+    <div class="mea-related">
+      <h2>あわせて読みたい</h2>
+      <p><a href="/ja/cara-hitung-kata.html">文字数・単語数・読了時間を数える方法</a></p>
+      <p><a href="/ja/cara-cek-hash-file.html">ファイルのハッシュ値（MD5、SHA-256）を確認する方法</a></p>
+      <p><a href="/id/kenapa-tools-online-pindah-ke-client-side.html">なぜオンラインツールはクライアントサイド処理へ移行しているのか？</a></p>
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-row footer-row-top">
+      <div class="brand-lockup footer-brand">
+        <svg class="footer-logo-animated" viewBox="0 0 210 180" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect id="footer-box-left" x="24.5" y="30" width="100" height="100" rx="20" fill="none" stroke="var(--mea-accent)" stroke-width="8"/>
+          <path id="footer-box-right" d="M 123.86 45.00 L 173.11 45.17 L 179.35 47.06 L 182.68 49.13 L 185.54 51.81 L 188.98 57.35 L 190.46 63.69 L 190.50 120.00 L 189.82 125.18 L 187.13 131.11 L 183.69 135.04 L 178.15 138.48 L 171.81 139.96 L 112.89 139.83 L 107.85 138.48 L 104.39 136.63 L 101.36 134.14 L 98.18 130.00" fill="none" stroke="var(--mea-accent)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="brand" style="font-size:16px;">MEA Blog</span>
+      </div>
+      <div class="footer-copyright">© 2026 MEA Ecosystem. All rights reserved.</div>
+    </div>
+    <div class="footer-row footer-row-bottom">
+      <nav class="footer-links">
+        <a href="https://legal.meaecosystem.com/meaecosystem/privacy">Privacy</a>
+        <a href="https://legal.meaecosystem.com/meaecosystem/terms">Terms</a>
+        <a href="https://legal.meaecosystem.com/meaecosystem/disclaimer">Disclaimer</a>
+      </nav>
+      <div class="footer-meta">
+        <a href="https://meaecosystem.com" class="brand">MEA Ecosystem</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/shared/lang-switcher.js" defer></script>
+</body>
+</html>
