@@ -1074,5 +1074,50 @@
       "プライバシー オンラインツール",
       "ブラウザ内処理"
     ]
+  },
+  {
+    "id": "cara-memecah-pdf",
+    "lang": "ja",
+    "title": "1つのPDFを複数のファイルに分割する方法",
+    "desc": "PDFをページ単位で分割する方法。サムネイル間をクリックするだけ、またはページ範囲を手動で指定可能。サーバーへのアップロード不要、無料でログインも不要です。",
+    "category": "convert",
+    "url": "/ja/cara-memecah-pdf.html",
+    "date": "2026-08-17",
+    "icon": "pdf",
+    "keywords": [
+      "PDF分割",
+      "PDFページ分割",
+      "PDF切り分け"
+    ]
+  },
+  {
+    "id": "cara-ubah-pdf-jadi-gambar",
+    "lang": "ja",
+    "title": "PDFを画像（JPG/PNG）に変換する方法（ブラウザ内で直接）",
+    "desc": "PDFの各ページをJPGまたはPNG画像に変換する完全ガイド。サーバーへのアップロード不要、アプリのインストール不要、ログイン不要——すべてブラウザ内で処理されます。",
+    "category": "convert",
+    "url": "/ja/cara-ubah-pdf-jadi-gambar.html",
+    "date": "2026-08-16",
+    "icon": "pdf",
+    "keywords": [
+      "PDF 画像変換",
+      "PDF JPG変換",
+      "PDF PNG変換"
+    ]
+  },
+  {
+    "id": "cara-putar-susun-ulang-pdf",
+    "lang": "ja",
+    "title": "PDFのページを回転・並べ替え・削除する方法",
+    "desc": "逆向きにスキャンされたPDFページを回転させたり、順番を並べ替えたり、不要なページを削除する方法。すべてブラウザ内で完結します。",
+    "category": "convert",
+    "url": "/ja/cara-putar-susun-ulang-pdf.html",
+    "date": "2026-10-01",
+    "icon": "pdf",
+    "keywords": [
+      "PDFページ回転",
+      "PDF並べ替え",
+      "PDFページ削除"
+    ]
   }
 ]
